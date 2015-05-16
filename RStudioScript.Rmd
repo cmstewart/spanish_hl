@@ -1,5 +1,5 @@
 ---
-title: "Capstone4.1"
+title: "Lexical Diversity in Speakers of Spanish as a Heritage Language"
 author: "Christopher Stewart"
 date: "May 14, 2015"
 output: html_document
@@ -12,40 +12,26 @@ This project examines lexical diversity in oral interviews with three groups of 
 ## Data preparation and exploration
 
 ### Data Acquisition
-These data were sent to me in an email by Maria Ciriza. I received Word files that I converted into text files, first excising elements that are obviously extraneous to the analysis to be performed (i.e. headings, numbers, etc.), then compressing them and placing them in a GitHub repository. In addition to the zipped data files, this script can be found in the same GitHub repository, in the interest of making sure that this analysis is fully reproducible.
+These data were sent to me in an email by Maria Ciriza. I received Word files that I converted into text files, first excising elements that are obviously extraneous to the analysis to be performed (i.e. headings, numbers, etc.), then compressing them and placing them in a [GitHub repository](https://github.com/cmstewart/spanish_hl). 
 
-To begin, we download the uploaded text files, unzip them and switch working directories to the folder where the files where downloaded. We initially print out the contents of the current directory to ensure that everything is in order.
+In addition to the data files, this script can be found in the same repository, in the interest of making sure that this analysis is fully reproducible.
+
+To begin, download the text files from the repository and switch working directories to the folder where the files where downloaded. We initially print out the working directory used here and its contents to show what your working directory should look like.
 
 ```{r data acquisition}
-# load required packages
-suppressPackageStartupMessages(require("downloader"))
-suppressPackageStartupMessages(require("R.utils"))
-
-# Download, unzip data and set working directory
-## put github URL here
-url <- "XXX"
-
-## download data
-download(url, dest = "data.zip", mode = "wb")
-
-## unzip files
-unzip("data.zip", exdir = "./")
-
 # Set working directory and print out its contents
-setwd(paste(getwd(),"/data/",sep=""))
+getwd()
 list.files()
 
-# Clean up
-rm(url)
 ```
 
 ## Data cleaning
 
-To begin with, we clean our corpus to prepare it for model building.
+To begin with, we clean our corpus to prepare it for model building. This code chunk is for illustrative purposes *only*, so that you can see what the code looks like. Future code blocks will be hidden from view in the HTML document produced.
 
 ```{r cleanup data}
-# create directory that we'll write cleaned data to
-dir.create(path = "./clean/")
+# Load required packages
+suppressPackageStartupMessages(require("stringr"))
 
 # load in data from 3 groups
 group1_corp <- readLines("group1.txt")
@@ -57,23 +43,20 @@ group1_corp.1 <- tolower(group1_corp)
 group2_corp.1 <- tolower(group2_corp)
 group3_corp.1 <- tolower(group3_corp)
 
-# replace digits with spaces
-group1_corp.2 <- str_replace_all(group1_corp.1, "[[:digit:]]+", " ")
-group2_corp.2 <- str_replace_all(group2_corp.1, "[[:digit:]]+", " ")
-group3_corp.2 <- str_replace_all(group3_corp.1, "[[:digit:]]+", " ")
+# replace punctuation with single space
+group1_corp.2 <- str_replace_all(group1_corp.1, "[^[:alnum:]]", " ")
+group2_corp.2 <- str_replace_all(group2_corp.1, "[^[:alnum:]]", " ")
+group3_corp.2 <- str_replace_all(group3_corp.1, "[^[:alnum:]]", " ")
 
-# replace heading and trailing spaces left behind by corpus cleanup
-group1_corp.3 <- str_replace_all(group1_corp.2, "  ", replacement = " ")
-group2_corp.3 <- str_replace_all(group2_corp.2, "  ", replacement = " ")
-group3_corp.3 <- str_replace_all(group3_corp.2, "  ", replacement = " ")
+# eliminate digits, replace heading and trailing spaces left behind by corpus cleanup
+group1_corp.3 <- str_replace_all(group1_corp.2, "[[:digit:]]+", " ")
+group1_corp.c <- str_replace_all(group1_corp.3, "  ", replacement = " ")
 
-# write cleaned corpus to text file
-write.table(group1_corp.3, file = "./clean/group1_corp_cleaned.txt")
-write.table(group2_corp.3, file = "./clean/group2_corp_cleaned.txt")
-write.table(group3_corp.3, file = "./clean/group3_corp_cleaned.txt")
+group2_corp.3 <- str_replace_all(group2_corp.2, "[[:digit:]]+", " ")
+group2_corp.c <- str_replace_all(group2_corp.3, "  ", replacement = " ")
 
-# switch working directories to cleaned corpora
-setwd(paste(getwd(),"/clean/",sep=""))
+group3_corp.3 <- str_replace_all(group3_corp.2, "[[:digit:]]+", " ")
+group3_corp.c <- str_replace_all(group3_corp.3, "  ", replacement = " ")
 
 # Clean up
 rm(group1_corp); rm(group2_corp); rm(group3_corp)
@@ -81,14 +64,13 @@ rm(group1_corp.1); rm(group2_corp.1); rm(group3_corp.1)
 rm(group1_corp.2); rm(group2_corp.2); rm(group3_corp.2)
 rm(group1_corp.3); rm(group2_corp.3); rm(group3_corp.3)
 
-
 ```
 
 ### Tokenization, n-gram constructions, frequency tables and n-gram probabilities
 
-We now tokenize and produce 2-, 3- and 4-grams using Maciej Szymkiewicz's efficient [Ngrams_tokenizer](https://github.com/zero323/r-snippets/blob/master/R/ngram_tokenizer.R) functio
+We now tokenize and produce 2-, 3- and 4-grams using Maciej Szymkiewicz's efficient [Ngrams_tokenizer](https://github.com/zero323/r-snippets/blob/master/R/ngram_tokenizer.R) function.
 
-```{r tokenize and get freq counts}
+```{r tokenize, echo=FALSE}
 
 # load tokenizer function, then make function for bigram, trigram and tetragram construction
 source("Ngrams_tokenizer.R")
@@ -98,37 +80,335 @@ trigram.tokenizer <- ngram_tokenizer(3)
 tetragram.tokenizer <- ngram_tokenizer(4)
 pentagram.tokenizer <- ngram_tokenizer(5)
 
-# read in data
-group1_corp_c <- readLines("group1_corp_cleaned.txt")
-group2_corp_c <- readLines("group2_corp_cleaned.txt")
-group3_corp_c <- readLines("group3_corp_cleaned.txt")
-
 # tokenize corpora from 3 groups
-group1_corp_c_tok <- tokenizer(group1_corp_c)
-group2_corp_c_tok <- tokenizer(group2_corp_c)
-group3_corp_c_tok <- tokenizer(group3_corp_c)
+group1_corp_c_tok <- tokenizer(group1_corp.c)
+group2_corp_c_tok <- tokenizer(group2_corp.c)
+group3_corp_c_tok <- tokenizer(group3_corp.c)
+
+# Clean up
+rm(group1_corp.c); rm(group2_corp.c); rm(group3_corp.c)
 
 # build bigrams
-group1_corp_c_tok <- bigram.tokenizer(group1_corp_c)
-group2_corp_c_tok <- bigram.tokenizer(group2_corp_c)
-group3_corp_c_tok <- bigram.tokenizer(group3_corp_c)
+group1_corp_c_bi <- bigram.tokenizer(group1_corp_c_tok)
+group2_corp_c_bi <- bigram.tokenizer(group2_corp_c_tok)
+group3_corp_c_bi <- bigram.tokenizer(group1_corp_c_tok)
 
 # build trigrams
-group1_corp_c_tok <- trigram.tokenizer(group1_corp_c)
-group2_corp_c_tok <- trigram.tokenizer(group2_corp_c)
-group3_corp_c_tok <- trigram.tokenizer(group3_corp_c)
+group1_corp_c_tri <- trigram.tokenizer(group1_corp_c_tok)
+group2_corp_c_tri <- trigram.tokenizer(group2_corp_c_tok)
+group3_corp_c_tri <- trigram.tokenizer(group3_corp_c_tok)
 
 # build tetragrams
-group1_corp_c_tok <- tetragram.tokenizer(group1_corp_c)
-group2_corp_c_tok <- tetragram.tokenizer(group2_corp_c)
-group3_corp_c_tok <- tetragram.tokenizer(group3_corp_c)
+group1_corp_c_tetra <- tetragram.tokenizer(group1_corp_c_tok)
+group2_corp_c_tetra <- tetragram.tokenizer(group2_corp_c_tok)
+group3_corp_c_tetra <- tetragram.tokenizer(group3_corp_c_tok)
 
 # build pentagrams
-group1_corp_c_tok <- pentagram.tokenizer(group1_corp_c)
-group2_corp_c_tok <- pentagram.tokenizer(group2_corp_c)
-group3_corp_c_tok <- pentagram.tokenizer(group3_corp_c)
-
-
+group1_corp_c_pent <- pentagram.tokenizer(group1_corp_c_tok)
+group2_corp_c_pent <- pentagram.tokenizer(group2_corp_c_tok)
+group3_corp_c_pent <- pentagram.tokenizer(group3_corp_c_tok)
 
 ```
 
+Next, we use R's ["data table"](http://cran.r-project.org/web/packages/data.table/index.html) package to store and organize our n-grams.
+
+```{r organize n-grams, echo=FALSE}
+# load required packages
+suppressPackageStartupMessages(require("data.table"))
+
+# FOR TOKENS: switch to "data tables", set appropriate column names
+group1_corp_c_tokDT <- as.data.table(group1_corp_c_tok); setnames(group1_corp_c_tokDT, "tokens")
+group2_corp_c_tokDT <- as.data.table(group2_corp_c_tok); setnames(group2_corp_c_tokDT, "tokens")
+group3_corp_c_tokDT <- as.data.table(group3_corp_c_tok); setnames(group3_corp_c_tokDT, "tokens")
+
+# FOR BIGRAMS: switch to "data tables", set appropriate column names
+group1_corp_c_biDT <- as.data.table(group1_corp_c_bi); setnames(group1_corp_c_biDT, "bigrams")
+group2_corp_c_biDT <- as.data.table(group2_corp_c_bi); setnames(group2_corp_c_biDT, "bigrams")
+group3_corp_c_biDT <- as.data.table(group3_corp_c_bi); setnames(group3_corp_c_biDT, "bigrams")
+
+# FOR TRIGRAMS: switch to "data tables", set appropriate column names
+group1_corp_c_triDT <- as.data.table(group1_corp_c_tri); setnames(group1_corp_c_triDT, "trigrams")
+group2_corp_c_triDT <- as.data.table(group2_corp_c_tri); setnames(group2_corp_c_triDT, "trigrams")
+group3_corp_c_triDT <- as.data.table(group3_corp_c_tri); setnames(group3_corp_c_triDT, "trigrams")
+
+# FOR TETRAGRAMS: switch to "data tables", set appropriate column names
+group1_corp_c_tetraDT <- as.data.table(group1_corp_c_tetra); setnames(group1_corp_c_tetraDT, "tetragrams")
+group2_corp_c_tetraDT <- as.data.table(group2_corp_c_tetra); setnames(group2_corp_c_tetraDT, "tetragrams")
+group3_corp_c_tetraDT <- as.data.table(group3_corp_c_tetra); setnames(group3_corp_c_tetraDT, "tetragrams")
+
+# FOR PENTAGRAMS: switch to "data tables", set appropriate column names
+group1_corp_c_pentDT <- as.data.table(group1_corp_c_pent); setnames(group1_corp_c_pentDT, "pentagrams")
+group2_corp_c_pentDT <- as.data.table(group2_corp_c_pent); setnames(group2_corp_c_pentDT, "pentagrams")
+group3_corp_c_pentDT <- as.data.table(group3_corp_c_pent); setnames(group3_corp_c_pentDT, "pentagrams")
+
+```
+
+We use these new data tables to now derive frequency counts for our n-grams.
+
+```{r get frequency counts, echo=FALSE}
+
+# Get frequency counts, eliminate repeated n-grams (we only need the count for each once) and order by descending n-gram frequency
+
+## TOKENS
+group1_corp_c_tokDTfreqs <- group1_corp_c_tokDT[,token.count:=.N, by = tokens]
+group2_corp_c_tokDTfreqs <- group2_corp_c_tokDT[,token.count:=.N, by = tokens]
+group3_corp_c_tokDTfreqs <- group3_corp_c_tokDT[,token.count:=.N, by = tokens]
+
+group1_toks_sort <- group1_corp_c_tokDTfreqs[order(-token.count)]; group1_toks_sort.2 <- unique(group1_toks_sort)
+group2_toks_sort <- group2_corp_c_tokDTfreqs[order(-token.count)]; group2_toks_sort.2 <- unique(group2_toks_sort)
+group3_toks_sort <- group3_corp_c_tokDTfreqs[order(-token.count)]; group3_toks_sort.2 <- unique(group3_toks_sort)
+
+
+## BIGRAMS
+group1_corp_c_biDTfreqs <- group1_corp_c_biDT[,bigram.count:=.N, by = bigrams]
+group2_corp_c_biDTfreqs <- group2_corp_c_biDT[,bigram.count:=.N, by = bigrams]
+group3_corp_c_biDTfreqs <- group3_corp_c_biDT[,bigram.count:=.N, by = bigrams]
+
+group1_bi_sort <- group1_corp_c_biDTfreqs[order(-bigram.count)]; group1_bi_sort.2 <- unique(group1_bi_sort)
+group2_bi_sort <- group2_corp_c_biDTfreqs[order(-bigram.count)]; group2_bi_sort.2 <- unique(group2_bi_sort)
+group3_bi_sort <- group3_corp_c_biDTfreqs[order(-bigram.count)]; group3_bi_sort.2 <- unique(group3_bi_sort)
+
+
+## TRIGRAMS
+group1_corp_c_triDTfreqs <- group1_corp_c_triDT[,trigram.count:=.N, by = trigrams]
+group2_corp_c_triDTfreqs <- group2_corp_c_triDT[,trigram.count:=.N, by = trigrams]
+group3_corp_c_triDTfreqs <- group3_corp_c_triDT[,trigram.count:=.N, by = trigrams]
+
+group1_tri_sort <- group1_corp_c_triDTfreqs[order(-trigram.count)]; group1_tri_sort.2 <- unique(group1_tri_sort)
+group2_tri_sort <- group2_corp_c_triDTfreqs[order(-trigram.count)]; group2_tri_sort.2 <- unique(group2_tri_sort)
+group3_tri_sort <- group3_corp_c_triDTfreqs[order(-trigram.count)]; group3_tri_sort.2 <- unique(group3_tri_sort)
+
+
+## TETRAGRAMS
+group1_corp_c_tetraDTfreqs <- group1_corp_c_tetraDT[,tetragram.count:=.N, by = tetragrams]
+group2_corp_c_tetraDTfreqs <- group2_corp_c_tetraDT[,tetragram.count:=.N, by = tetragrams]
+group3_corp_c_tetraDTfreqs <- group3_corp_c_tetraDT[,tetragram.count:=.N, by = tetragrams]
+
+group1_tetra_sort <- group1_corp_c_tetraDTfreqs[order(-tetragram.count)]; group1_tetra_sort.2 <- unique(group1_tetra_sort)
+group2_tetra_sort <- group2_corp_c_tetraDTfreqs[order(-tetragram.count)]; group2_tetra_sort.2 <- unique(group2_tetra_sort)
+group3_tetra_sort <- group3_corp_c_tetraDTfreqs[order(-tetragram.count)]; group3_tetra_sort.2 <- unique(group3_tetra_sort)
+
+
+## PENTAGRAMS
+group1_corp_c_pentDTfreqs <- group1_corp_c_pentDT[,pentagram.count:=.N, by = pentagrams]
+group2_corp_c_pentDTfreqs <- group2_corp_c_pentDT[,pentagram.count:=.N, by = pentagrams]
+group3_corp_c_pentDTfreqs <- group3_corp_c_pentDT[,pentagram.count:=.N, by = pentagrams]
+
+group1_pent_sort <- group1_corp_c_pentDTfreqs[order(-pentagram.count)]; group1_pent_sort.2 <- unique(group1_pent_sort)
+group2_pent_sort <- group2_corp_c_pentDTfreqs[order(-pentagram.count)]; group2_pent_sort.2 <- unique(group2_pent_sort)
+group3_pent_sort <- group3_corp_c_pentDTfreqs[order(-pentagram.count)]; group3_pent_sort.2 <- unique(group3_pent_sort)
+
+```
+
+## Initial Exploratory Data Analysis
+For this initial exploration, we will build barplots of 20 most frequent n-grams for the 3 groups. 
+
+```{r subset data for barplots, echo=FALSE}
+
+# Subset 20 most frequent n-grams
+group1_toks_sub <- as.data.frame(head(group1_toks_sort.2, n = 20))
+group2_toks_sub <- as.data.frame(head(group2_toks_sort.2, n = 20))
+group3_toks_sub <- as.data.frame(head(group3_toks_sort.2, n = 20))
+
+group1_bi_sub <- as.data.frame(head(group1_bi_sort.2, n = 20))
+group2_bi_sub <- as.data.frame(head(group2_bi_sort.2, n = 20))
+group3_bi_sub <- as.data.frame(head(group3_bi_sort.2, n = 20))
+
+group1_tri_sub <- as.data.frame(head(group1_tri_sort.2, n = 20))
+group2_tri_sub <- as.data.frame(head(group2_tri_sort.2, n = 20))
+group3_tri_sub <- as.data.frame(head(group3_tri_sort.2, n = 20))
+
+group1_tetra_sub <- as.data.frame(head(group1_tetra_sort.2, n = 20))
+group2_tetra_sub <- as.data.frame(head(group2_tetra_sort.2, n = 20))
+group3_tetra_sub <- as.data.frame(head(group3_tetra_sort.2, n = 20))
+
+group1_pent_sub <- as.data.frame(head(group1_pent_sort.2, n = 20))
+group2_pent_sub <- as.data.frame(head(group2_pent_sort.2, n = 20))
+group3_pent_sub <- as.data.frame(head(group3_pent_sort.2, n = 20))
+
+```
+
+We now build barplots of the 20 most frequent tokens across the 3 groups.
+
+```{r build barplots for 20 most frequent TOKENS, echo=FALSE}
+# load required packages
+suppressPackageStartupMessages(require("ggplot2")); suppressPackageStartupMessages(require("gridExtra"))
+
+# Build barplots for TOKENS
+group1_toks_sub$order <- factor(group1_toks_sub$tokens, as.character(group1_toks_sub$tokens))
+
+group1_toks_sub.plot <- ggplot(group1_toks_sub, aes(x = group1_toks_sub$order, y = group1_toks_sub$token.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 1") +
+    geom_bar(colour="green", fill="blue", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group2_toks_sub$order <- factor(group2_toks_sub$tokens, as.character(group2_toks_sub$tokens))
+
+group2_toks_sub.plot <- ggplot(group2_toks_sub, aes(x = group2_toks_sub$order, y = group2_toks_sub$token.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 2") +
+    geom_bar(colour="green", fill="blue", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group3_toks_sub$order <- factor(group3_toks_sub$tokens, as.character(group3_toks_sub$tokens))
+
+group3_toks_sub.plot <- ggplot(group3_toks_sub, aes(x = group3_toks_sub$order, y = group3_toks_sub$token.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 3") +
+    geom_bar(colour="green", fill="blue", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+# Plot combined barplots for TOKENS
+newplot <- grid.arrange(group1_toks_sub.plot,group2_toks_sub.plot, group3_toks_sub.plot, ncol = 3, main = "20 Most Frequent Tokens")
+
+```
+
+And barplots of the 20 most frequent bigrams across the 3 groups.
+
+```{r build barplots for 20 most frequent BIGRAMS, echo=FALSE}
+
+# Build barplots for BIGRAMS
+group1_bi_sub$order <- factor(group1_bi_sub$bigrams, as.character(group1_bi_sub$bigrams))
+
+group1_bi_sub.plot <- ggplot(group1_bi_sub, aes(x = group1_bi_sub$order, y = group1_bi_sub$bigram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 1") +
+    geom_bar(colour="mintcream", fill="red2", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group2_bi_sub$order <- factor(group2_bi_sub$bigrams, as.character(group2_bi_sub$bigrams))
+
+group2_bi_sub.plot <- ggplot(group2_bi_sub, aes(x = group2_bi_sub$order, y = group2_bi_sub$bigram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 2") +
+    geom_bar(colour="mintcream", fill="red2", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group3_bi_sub$order <- factor(group3_bi_sub$bigrams, as.character(group3_bi_sub$bigrams))
+
+group3_bi_sub.plot <- ggplot(group3_bi_sub, aes(x = group3_bi_sub$order, y = group3_bi_sub$bigram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 3") +
+    geom_bar(colour="mintcream", fill="red2", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+# Plot combined barplots for BIGRAMS
+newplot <- grid.arrange(group1_bi_sub.plot,group2_bi_sub.plot, group3_bi_sub.plot, ncol = 3, main = "20 Most Frequent Bigrams")
+```
+
+
+
+```{r build barplots for 20 most frequent TRIGRAMS, echo=FALSE}
+
+# Build barplots for TRIGRAMS
+group1_tri_sub$order <- factor(group1_tri_sub$trigrams, as.character(group1_tri_sub$trigrams))
+
+group1_tri_sub.plot <- ggplot(group1_tri_sub, aes(x = group1_tri_sub$order, y = group1_tri_sub$trigram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 1") +
+    geom_bar(colour="navyblue", fill="chocolate", width=.7, stat="identity") + 
+    scale_y_discrete(labels = function(x) str_wrap(x, width = 25)) +
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group2_tri_sub$order <- factor(group2_tri_sub$trigrams, as.character(group2_tri_sub$trigrams))
+
+group2_tri_sub.plot <- ggplot(group2_tri_sub, aes(x = group2_tri_sub$order, y = group2_tri_sub$trigram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 2") +
+    geom_bar(colour="navyblue", fill="chocolate", width=.7, stat="identity") + 
+    scale_y_discrete(labels = function(x) str_wrap(x, width = 25)) +
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group3_tri_sub$order <- factor(group3_tri_sub$trigrams, as.character(group3_tri_sub$trigrams))
+
+group3_tri_sub.plot <- ggplot(group3_tri_sub, aes(x = group3_tri_sub$order, y = group3_tri_sub$trigram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 3") +
+    geom_bar(colour="navyblue", fill="chocolate", width=.7, stat="identity") + 
+    scale_y_discrete(labels = function(x) str_wrap(x, width = 25)) +
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+# Plot combined barplots for TRIGRAMS
+newplot <- grid.arrange(group1_tri_sub.plot)
+newplot2 <- grid.arrange(group2_tri_sub.plot)
+newplot3 <- grid.arrange(group3_tri_sub.plot)
+```
+
+
+```{r build barplots for 20 most frequent TETRAGRAMS, echo=FALSE}
+
+# Build barplots for TETRAGRAMS
+group1_tetra_sub$order <- factor(group1_tetra_sub$tetragrams, as.character(group1_tetra_sub$tetragrams))
+
+group1_tetra_sub.plot <- ggplot(group1_tetra_sub, aes(x = group1_tetra_sub$order, y = group1_tetra_sub$tetragram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 1") +
+    geom_bar(colour="yellow", fill="slateblue4", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group2_tetra_sub$order <- factor(group2_tetra_sub$tetragrams, as.character(group2_tetra_sub$tetragrams))
+
+group2_tetra_sub.plot <- ggplot(group2_tetra_sub, aes(x = group2_tetra_sub$order, y = group2_tetra_sub$tetragram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 2") +
+    geom_bar(colour="yellow", fill="slateblue4", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group3_tetra_sub$order <- factor(group3_tetra_sub$tetragrams, as.character(group3_tetra_sub$tetragrams))
+
+group3_tetra_sub.plot <- ggplot(group3_tetra_sub, aes(x = group3_tetra_sub$order, y = group3_tetra_sub$tetragram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 3") +
+    geom_bar(colour="yellow", fill="slateblue4", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+# Plot combined barplots for TETRAGRAMS
+newplot <- grid.arrange(group1_tetra_sub.plot)
+newplot2 <- grid.arrange(group2_tetra_sub.plot)
+newplot3 <- grid.arrange(group3_tetra_sub.plot)
+```
+
+
+```{r build barplots for 20 most frequent PENTAGRAMS, echo=FALSE}
+
+# Build barplots for PENTAGRAMS
+group1_pent_sub$order <- factor(group1_pent_sub$pentagrams, as.character(group1_pent_sub$pentagrams))
+
+group1_pent_sub.plot <- ggplot(group1_pent_sub, aes(x = group1_pent_sub$order, y = group1_pent_sub$pentagram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 1") +
+    geom_bar(colour="lawngreen", fill="violet", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group2_pent_sub$order <- factor(group2_pent_sub$pentagrams, as.character(group2_pent_sub$pentagrams))
+
+group2_pent_sub.plot <- ggplot(group2_pent_sub, aes(x = group2_pent_sub$order, y = group2_pent_sub$pentagram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 2") +
+    geom_bar(colour="lawngreen", fill="violet", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+
+group3_pent_sub$order <- factor(group3_pent_sub$pentagrams, as.character(group3_pent_sub$pentagrams))
+
+group3_pent_sub.plot <- ggplot(group3_pent_sub, aes(x = group3_pent_sub$order, y = group3_pent_sub$pentagram.count))+
+    geom_bar(stat="identity") + coord_flip() + xlab("") + ylab("") + ggtitle("Group 3") +
+    geom_bar(colour="lawngreen", fill="violet", width=.7, stat="identity") + 
+    theme(plot.background = element_blank() ,panel.grid.major = element_blank() ,panel.grid.minor = element_blank(),     
+    panel.border = element_blank())
+
+# Plot combined barplots for PENTAGRAMS
+newplot <- grid.arrange(group1_pent_sub.plot)
+newplot2 <- grid.arrange(group2_pent_sub.plot)
+newplot3 <- grid.arrange(group3_pent_sub.plot)
+```
