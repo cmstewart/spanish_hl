@@ -1,0 +1,134 @@
+---
+title: "Capstone4.1"
+author: "Christopher Stewart"
+date: "May 14, 2015"
+output: html_document
+---
+
+# Introduction 
+
+This project examines lexical diversity in oral interviews with three groups of heritage Spanish speakers: highly proficient speakers, speakers with more limited fluency and speakers who rarely use Spanish.
+
+## Data preparation and exploration
+
+### Data Acquisition
+These data were sent to me in an email by Maria Ciriza. I received Word files that I converted into text files, first excising elements that are obviously extraneous to the analysis to be performed (i.e. headings, numbers, etc.), then compressing them and placing them in a GitHub repository. In addition to the zipped data files, this script can be found in the same GitHub repository, in the interest of making sure that this analysis is fully reproducible.
+
+To begin, we download the uploaded text files, unzip them and switch working directories to the folder where the files where downloaded. We initially print out the contents of the current directory to ensure that everything is in order.
+
+```{r data acquisition}
+# load required packages
+suppressPackageStartupMessages(require("downloader"))
+suppressPackageStartupMessages(require("R.utils"))
+
+# Download, unzip data and set working directory
+## put github URL here
+url <- "XXX"
+
+## download data
+download(url, dest = "data.zip", mode = "wb")
+
+## unzip files
+unzip("data.zip", exdir = "./")
+
+# Set working directory and print out its contents
+setwd(paste(getwd(),"/data/",sep=""))
+list.files()
+
+# Clean up
+rm(url)
+```
+
+## Data cleaning
+
+To begin with, we clean our corpus to prepare it for model building.
+
+```{r cleanup data}
+# create directory that we'll write cleaned data to
+dir.create(path = "./clean/")
+
+# load in data from 3 groups
+group1_corp <- readLines("group1.txt")
+group2_corp <- readLines("group2.txt")
+group3_corp <- readLines("group3.txt")
+
+# convert all text to lower case
+group1_corp.1 <- tolower(group1_corp)
+group2_corp.1 <- tolower(group2_corp)
+group3_corp.1 <- tolower(group3_corp)
+
+# replace digits with spaces
+group1_corp.2 <- str_replace_all(group1_corp.1, "[[:digit:]]+", " ")
+group2_corp.2 <- str_replace_all(group2_corp.1, "[[:digit:]]+", " ")
+group3_corp.2 <- str_replace_all(group3_corp.1, "[[:digit:]]+", " ")
+
+# replace heading and trailing spaces left behind by corpus cleanup
+group1_corp.3 <- str_replace_all(group1_corp.2, "  ", replacement = " ")
+group2_corp.3 <- str_replace_all(group2_corp.2, "  ", replacement = " ")
+group3_corp.3 <- str_replace_all(group3_corp.2, "  ", replacement = " ")
+
+# write cleaned corpus to text file
+write.table(group1_corp.3, file = "./clean/group1_corp_cleaned.txt")
+write.table(group2_corp.3, file = "./clean/group2_corp_cleaned.txt")
+write.table(group3_corp.3, file = "./clean/group3_corp_cleaned.txt")
+
+# switch working directories to cleaned corpora
+setwd(paste(getwd(),"/clean/",sep=""))
+
+# Clean up
+rm(group1_corp); rm(group2_corp); rm(group3_corp)
+rm(group1_corp.1); rm(group2_corp.1); rm(group3_corp.1)
+rm(group1_corp.2); rm(group2_corp.2); rm(group3_corp.2)
+rm(group1_corp.3); rm(group2_corp.3); rm(group3_corp.3)
+
+
+```
+
+### Tokenization, n-gram constructions, frequency tables and n-gram probabilities
+
+We now tokenize and produce 2-, 3- and 4-grams using Maciej Szymkiewicz's efficient [Ngrams_tokenizer](https://github.com/zero323/r-snippets/blob/master/R/ngram_tokenizer.R) functio
+
+```{r tokenize and get freq counts}
+
+# load tokenizer function, then make function for bigram, trigram and tetragram construction
+source("Ngrams_tokenizer.R")
+tokenizer <- ngram_tokenizer(1)
+bigram.tokenizer <- ngram_tokenizer(2)
+trigram.tokenizer <- ngram_tokenizer(3)
+tetragram.tokenizer <- ngram_tokenizer(4)
+pentagram.tokenizer <- ngram_tokenizer(5)
+
+# read in data
+group1_corp_c <- readLines("group1_corp_cleaned.txt")
+group2_corp_c <- readLines("group2_corp_cleaned.txt")
+group3_corp_c <- readLines("group3_corp_cleaned.txt")
+
+# tokenize corpora from 3 groups
+group1_corp_c_tok <- tokenizer(group1_corp_c)
+group2_corp_c_tok <- tokenizer(group2_corp_c)
+group3_corp_c_tok <- tokenizer(group3_corp_c)
+
+# build bigrams
+group1_corp_c_tok <- bigram.tokenizer(group1_corp_c)
+group2_corp_c_tok <- bigram.tokenizer(group2_corp_c)
+group3_corp_c_tok <- bigram.tokenizer(group3_corp_c)
+
+# build trigrams
+group1_corp_c_tok <- trigram.tokenizer(group1_corp_c)
+group2_corp_c_tok <- trigram.tokenizer(group2_corp_c)
+group3_corp_c_tok <- trigram.tokenizer(group3_corp_c)
+
+# build tetragrams
+group1_corp_c_tok <- tetragram.tokenizer(group1_corp_c)
+group2_corp_c_tok <- tetragram.tokenizer(group2_corp_c)
+group3_corp_c_tok <- tetragram.tokenizer(group3_corp_c)
+
+# build pentagrams
+group1_corp_c_tok <- pentagram.tokenizer(group1_corp_c)
+group2_corp_c_tok <- pentagram.tokenizer(group2_corp_c)
+group3_corp_c_tok <- pentagram.tokenizer(group3_corp_c)
+
+
+
+```
+
