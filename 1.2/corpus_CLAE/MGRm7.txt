@@ -1,0 +1,44 @@
+﻿Acerca del Índice de Desarrollo Humano (Texto 10)
+
+El Índice de Desarrollo Humano (IDH) es un indicador compuesto que mide los avances promedio de un país en función de tres dimensiones básicas del desarrollo humano, vida larga y saludable medida según la esperanza de vida al nacer; educación medida por la tasa de alfabetización de adultos y la tasa bruta combinada de matriculación en enseñanza primaria, secundaria y terciaria; y nivel de vida digno medido por el PIB per cápita. 
+
+La disponibilidad de datos determina los países que se incluyen en el IDH
+El IDH se calcula, en la medida de lo posible, en función de la información disponible en el momento en que se elabora el Informe y que es entregada por los principales organismos productores de datos a nivel internacional Sin embargo, estos organismos carecen de datos de algunos países para uno o más de los cuatro componentes del IDH. 
+En respuesta a la aspiración de los países de ser incluidos en el cuadro pertinente del IDH y en un esfuerzo por incluir la mayor cantidad posible de países miembros de las Naciones Unidas, la Oficina encargada del Informe sobre Desarrollo Humano ha realizado gestiones especiales para conseguir cálculos de otras fuentes nacionales, regionales o internacionales cuando los principales organismos internacionales que proveen esta información no disponen de ella respecto de uno o dos de los componentes del IDH de un país determinado. 
+
+Principales fuentes internacionales de datos
+
+Esperanza de vida al nacer.
+Los cálculos de la esperanza de vida provienen de las Perspectivas de Población en el Mundo, la fuente oficial de los cálculos y las proyecciones demográficas de la ONU, son elaboradas cada dos años por la División de Población del Departamento de Asuntos Económicos y Sociales de las Naciones Unidas. A la hora de realizar cálculos y proyecciones demográficas la inestable dinámica de enfermedades infecciosas importantes como el VIH/SIDA implica serios desafíos. 
+
+
+
+Tasa de alfabetización de adultos.
+Los datos sobre alfabetización de adultos por lo general se recopilan a través de censos demográficos (cada cinco o 10 años) o de encuestas por hogares. 
+Una vez obtenidos niveles superiores de alfabetización, muchos países de ingresos altos dejan de recopilar estadísticas sobre alfabetización en los censos o encuestas por hogares nacionales y por ello no están incluidos en los datos de la UNESCO. Por lo tanto, para calcular el IDH de esos países, se aplica una tasa de alfabetización de 99,0%.
+Para recopilar datos sobre alfabetización, muchos países calculan la cantidad de personas alfabetizadas sobre la base de datos informados por los propios involucrados.
+Dado que las definiciones y los métodos de recopilación de datos varían entre un país y otro, los cálculos sobre la alfabetización deben interpretarse con la debida prudencia
+
+Tasa bruta combinada de matriculación en enseñanza primaria, secundaria y terciaria.
+Las tasas se calculan dividiendo la cantidad de estudiantes matriculados en todos los niveles escolares por la población total del grupo de edad oficial correspondiente a esos niveles. El grupo de edad del nivel terciario se fija en las cinco cohortes inmediatamente siguientes al término del ciclo superior de la enseñanza secundaria en todos los países.
+Tal como se define en la actualidad, la tasa bruta combinada de matriculación no toma en cuenta a los estudiantes matriculados en otros países. Los datos actuales de muchos países pequeños, cuyos habitantes acuden masivamente al extranjero a cursar estudios terciarios, podrían traducirse en una sobre presentación importante del acceso a la educación o del nivel de instrucción de una población determinada y así arrojar un valor de IDH más bajo.
+
+PIB per cápita (PPA en US$).
+Para comparar el nivel de vida entre los países es necesario convertir las estadísticas económicas en términos de la Paridad del Poder Adquisitivo (PPA) y así neutralizar las diferencias en los niveles de precios entre los países. . El Banco Mundial aporta datos sobre el PIB per cápita (PPP en US$) de 164 países para calcular el IDH, los que se basan en información sobre precios de las últimas encuestas del Programa de Comparación Internacional (PCI) y el PIB en moneda local proveniente de los datos de cuentas nacionales.
+Los cálculos de los países que no están incluidos en las encuestas de referencia se realizaron a través de regresiones econométricas.
+
+Comparaciones en el tiempo y entre las ediciones del informe
+
+Puesto que los organismos internacionales que producen información están mejorando constantemente sus series de datos y actualizan periódicamente los datos históricos, muchas veces los cambios que sufren de año en año los valores del IDH y las clasificaciones entre una edición y otra del Informe sobre Desarrollo Humano se deben más a revisiones de los datos (tanto específicos de un país como en relación con otros países) que a cambios efectivos en el país.
+
+IDH para países de alto desarrollo humano
+
+Para estos países de ingresos altos, existe un índice alternativo, el índice de pobreza humana, que refleja mejor el alcance de las privaciones humanas que aún persisten entre sus habitantes y ayuda a orientar el centro de atención de las políticas públicas.
+
+Opinión sobre la lectura.
+
+Como vimos en clase para poder medir el desarrollo de un país, hay tres indicadores, los cuales son: producto interno bruto per cápita, la esperanza de vida al nacer, y el índice de alfabetización y educación.
+En esta lectura puedo ver como es que las instituciones encargadas realizan la tarea de analizar las fuentes de información de los datos.  
+Creo que esto es un poco complicado en países que no están dentro de los cuadros del IDH y que se esta haciendo un gran esfuerzo por incluir la mayor cantidad posible de países miembros de las Naciones Unidas.
+
+
