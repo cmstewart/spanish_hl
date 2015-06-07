@@ -1,0 +1,43 @@
+﻿Resumen sobre la lectura Índice de Desarrollo Humano.
+
+	
+El IDH es un indicador que mide el grado de desarrollo que tiene un país mediante tres consideraciones como son: la esperanza de vida al nacer, el nivel educativo medido mediante la tasa de alfabetización de adultos y la tasa bruta combinada de matriculación en enseñanza primaria, secundaria y terciaria, y el PIB per cápita , según los datos obtenidos se medirá el IDH de determinado país.
+
+El IDH referido al año 2003 tiene 175 países miembros de las Naciones Unidas, además de Hong Kong, China y los territorios palestinos ocupados, 16 paises miembros de las Naciones Unidas no fueron incluidos por falta de datos comparables
+
+La oficina encargada del informe sobre desarrollo humano ha planteado la posibilidad de tener acceso a la información de algunos paises de los cuales faltan datos para medir el IDH, echando mando mano de otras fuentes de información locales regionales o internacionales con la finalidad de tener datos comparables de mas paises miembros de las Naciones Unidas.
+
+
+
+Las principales fuentes internacionales de datos son las siguientes:
+
+
+Para la esperanza de vida al nacer se obtienen los datos de las Perspectivas de Población en el Mundo, revisión de 2004, la fu8ente oficial de cálculos y las proyecciones demográficas de la ONU, elaborada cada dos años por la División de Población del Departamento de Asuntos Económicos y sociales de las Naciones Unidas.
+Para conocer el impacto del VIH/SIDA, se combinaron los ultimas calculas de la prevalencia del VIH preparados por el programa Conjunto de las Naciones Unidas sobre el VIH/SIDA con una serie de supuestos acerca de las tendencias demográficas y la mortalidad tanto de personas infectadas como no infectadas en cada uno de los 60 paises en donde se analizo el impacto de la epidemia.
+
+Los datos de la tasa de alfabetización de adultos provienen generalmente de censos demográficos –cada cinco o diez años- o de encuestas por hogares. El presente informe utiliza datos sobre alfabetización de adultos recopilados en el estudio de abril de 2005 por el Instituto de Estadística de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. Muchos paises con ingresos altos dejan de recopilar datos referentes a la alfabetización, por lo que en dichos casos para sacar el IDH de esos paises por la ausencia de datos se aplica una tasa de alfabetización de 99.0%.
+
+Para la  tasa bruta de matricula en enseñanza primaria, secundaria y terciaria se acude al Instituto de Estadística de la UNESCO produce tasas brutas de matriculas a partir de datos de matriculación recopilados por los gobiernos nacionales y de datos demográficos de las Perspectivas de Población en el Mundo, para calcular la tasa se divide la cantidad de estudiantes matriculados en todos los niveles escolares por la población total del grupo de edad oficial correspondiente a esos niveles.
+Generalmente se solicita a los paises sobre la cantidad de estudiantes matriculados según la definición de la Clasificación Internacional Normalizada de la Educación.
+
+El PIB per capita es necesario convertirlo a PPA para realizar estadísticas económicas, el Banco Mundial aporta los datos sobre el PIB per capita de 164 paises para calcular el IDH los que se basan en las ultimas encuestas del Programa de Comparación para los países que no pertenecen al Banco Mundial se utilizaron cálculos de la PPA, provistas por la Penn World Tables de la Universidad de Pennsylvania. En casos raros que no se pueden obtener de estas dos fuentes los datos se trabaja conjuntamente la Oficina Encargada del Informe sobre Desarrollo Humano con instancias nacionales o regionales para obtener los datos.
+
+Los intervalos en que se realiza este informe es de cada 2 años en el periodo comprendido de 1975 al 2003 con el fin de facilitar el análisis de estas tendencias entre los paises.
+
+Para los paises con alto desarrollo humano se utiliza un índice alternativo ya que por estar en lo mas alto de la calcificación no reflejan diferencias significativas, el índice alternativo es el índice de pobreza humana que refleja que reflejan el alcancé de las privaciones humanas que aun persisten entre sus habitantes. 
+
+Comentario sobre esta lectura.
+
+Me parece que el IDH es una alternativa para calcular el desarrollo del país 
+un tanto engañosa ya que las disparidades dentro de los paises en cuanto a las personas con ingresos altos y bajos son muy elevadas por lo tanto los resultados no reflejan las realidad, en tantos que basarse en datos estadísticos es un tanto arriesgado ya que no pueden penetrar en la realidad de la situación si no que mas bien es una cuestión generalizada de los datos que se analizan y no aportan datos sobre el nivel de vida de los habitantes de los paises que se encuentran dentro del este reporte.
+          
+
+
+
+
+
+
+
+
+
+
