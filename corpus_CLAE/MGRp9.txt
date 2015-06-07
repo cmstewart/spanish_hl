@@ -1,0 +1,475 @@
+﻿Laboratorio de suelos
+Pozo No. 18 
+índice
+Determinación de la humedad en el Suelo	4
+Determinación del Color	5
+Densidad Aparente	6
+Densidad Real	7
+Determinación del pH con papel indicador	8
+Determinación del pH con potenciómetro	8
+Determinación de la Textura del Suelo	9
+Capacidad de Campo	10
+Determinación de la Materia Orgánica	11
+Capacidad de Intercambio Catiónico Total
+Por Percolación	12
+Determinación de Carbonatos y Bicarbonatos	13
+Recomendaciones	14
+Conclusiones	15
+Bibliografía	16
+
+
+Introducción
+Para el desarrollo de este trabajo se estudiaron las muestras de suelo obtenidas por medio de la excavación de un pozo con dimensiones de 2X2X2. Cuyo valor es de 8 m3 de volumen. Tomando muestras cada 25 cm. de separación.
+El Pozo fue cavado en el municipio de Amecameca de Juárez, perteneciente al Estado de México; En la ranchería "El Pedregal", donde se obtuvieron coordenadas con GPS de 19° 07'15" Latitud Norte y 98° 44' 07" Longitud Oeste. Cuya aproximación fue de +/- 4 metros en 3D.
+En el estudio de las muestras se determinaron características como: La humedad, El color, Densidad, Textura, PH, Capacidad de retención de agua, Materia Orgánica, Intercambio Catiónico y Cantidad de Carbonatos y Bicarbonatos.
+Para cada una de las características se realizaron prácticas, de cada análisis de las propiedades del suelo se llevaron a cabo tres muestras a cada una distintas profundidades para obtener un promedio mas exacto y al final se compararon los resultados en conjunto para obtener un promedio general.
+Cuyos resultados y análisis de importancia se expresan a continuación.
+Y a manera de conclusión se hacen varias recomendaciones para el mejor uso de ese suelo.
+
+
+I.-     Determinación de la Humedad del Suelo
+La Humedad determina de manera muy importante la diferenciación de los horizontes, el la manera en que se transportan las partículas y los iones.
+La humedad que entra al suelo, principalmente proviene de la precipitación pero la mayor parte se pierde por drenado o por la evaporación. 
+La intensidad de la precipitación es determinante para la penetración de la humedad; En chubascos suaves filtra con dificultad y se pierde rápidamente
+
+por evaporación y al contrario de las lluvias fuertes provocan que la humedad
+se acumule en la superficie para causar escurrimiento.
+La capacidad de absorción de agua aprovechable en el suelo analizado es menor a la mitad de la capacidad que puede tener el suelo.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-125
+126-150
+151-
+175
+176-200
+Promedio
+Determinación de Humedad (%)
+89.21
+94.91
+27.95
+20.67
+19.36
+31.69
+28.72
+44.46
+Interpretación de los Resultados
+La capacidad de absorción de agua aprovechable del suelo analizado podría ser mayor a la obtenida (44.46%), Pero se ve afectada por las actividades antrópicas como la deforestación, que han reducido dicha capacidad aproximadamente a la mitad; Esto lo inferimos debido a que el Clima es altamente favorable para la retención de humedad.
+
+
+2,- Determinación del Color del Suelo
+El Color del suelo esta determinado por la naturaleza del material fino. Así como la cantidad y el estado del Hierro y ce a Materia Orgánica.
+La gohetita (°°FeO-QH) es responsable de la coloración orgánica de los suelos y el drenado, esta coloración varía entre café rojizo y amarillo, de acuerdo con el grado de la hidratación.
+A estos también se les conoce como limonita, el patrón de color de algunos suelos pueden ser moteados, rayados, manchados, veteados. El patrón más común e importante es el de motas de color amarillo y café que se interpreta como el resultado del humedecimiento y secado estacional de los horizontes.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-  
+125       
+126-
+150
+151-175
+176-200
+Promedio I
+Color
+ Tabla Munseü
+Seco
+2.5Y
+5/3
+2.5Y
+4/4
+2.5Y 5/3
+2-5Y     
+5/3       
+2.5Y
+5/4
+2.5Y
+4/4
+2.5YR
+5/3
+2.5Y
+5/3
+
+
+Húmedo
+2.5 Y 3/1
+2.5Y
+3/1
+10YR 2/2
+1YR.    
+3/2        
+10YR
+4/2
+10YR 2/2
+10YR 2/2
+10YR
+2/2
+Interpretación de los Resultados
+El color dominante es el café claro en el suelo seco, con clave 2.5Y 5/3 y para suelo húmedo el color predominante fue el café oscuro 10YR 2/2.
+Según la Tabla de Munsell, indicando el bajo contenido de Materia Orgánica, una eficiencia media en el Drenaje y un bajo contenido de Oxido de Hierro.
+
+
+3.- Densidad Aparente del Suelo
+Es la relación entre el peso de un determinado volumen de suelo seco y del mismo volumen con agua, la densidad de un suelo se haya en relación inversa con su porosidad, aumentando a medida que se comprime.
+Esta densidad aumenta regularmente con la profundidad por lo cual es debido a la comprensión producida por los horizontes superiores y también a la menor granulación.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-
+125
+126-150
+151-175
+176-200
+Promedio I
+Densidad Aparente
+Seco
+0.95
+0.76
+1.11
+1.07
+1.22
+1.08
+0.98
+1.024
+(g/cm3)
+Húmedo
+1.21
+0.96
+1.45
+1.4
+1.55
+1.33
+1.25
+1.307
+
+Promedio
+1.165
+Interpretación de los Resultados
+Nuestro suelo presenta una densidad aparente de 1.165 entre seco y húmedo esto significa que es un suelo poco compactado, indicando así que cuenta con una buena capacidad de drenaje y una favorable aireación.
+Factores que contribuyen al crecimiento de la vegetación ya que permiten que las raíces penetren y obtengan los nutrientes requeridos.
+
+
+4.- Densidad Real
+La Densidad Real es la relación entre el peso de la parte sólida del suelo y el
+volumen igual de agua.	
+La diferencia de la densidad real de la aparente se basa en que esta considera el volumen aparente.
+Donde:
+V= Volumen verdadero del Suelo mas la porosidad, por la cual, esta no influye en el peso especifico.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+0-25
+51-
+75
+76-100
+101-
+125
+126-
+150
+151-175
+176-200
+Promedio
+Densidad Real(g/cm3)
+3.74
+2.27
+2.47
+1.38
+2.39
+2.40
+2.33
+2.4
+Interpretación de los Resultados
+Dado que el espacio poroso encontrado ocupa aproximadamente 50% del volumen aparente del suelo podemos identificar con ayuda de la densidad aparente que nuestro suelo contiene macro poros (con diámetro aproximado de >75u) que dan lugar al tipo de drenaje y a la aireación ya mencionados.
+
+
+5.- PH del Suelo
+El pH del suelo se refiere al potencial de reacción que tienen los iones de hidrogeno y oxidrilacion. En una solución corresponde al grado de acidez o alcalinidad que contenga.
+No es posible definir exactamente el pH del suelo ya que varía entre 3 y 9 grados.
+Se presentan valores más bajos que corresponden a suelos ácidos en pantanos y ciénegas, al contrario, los valores altos ocurren por la presencia de Carbonato de Sodio (NaCo3).
+Un alto contenido de Materia Orgánica provoca acidez y los valores cercanos a la neutralidad son originados por la presencia de grandes cantidades de Calcio (Ca) intercambiable.
+El pH se considera un factor de suma importancia para el desarrollo de la vegetación y para su determinación se utilizaron dos métodos.
+Datos del Análisis Realizado Papel Indicador:
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-125
+126-150
+151-175
+176-200
+Promedio
+PH
+6
+6
+6
+6
+6
+6
+6
+6
+Reacción
+Acido
+Acido
+Acido
+Ácido
+Acido
+Acido
+Acido
+Acido
+■
+
+Potenciómetro:
+
+
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-125
+126-150
+151-175
+176-200
+Promedio
+PH
+7.3
+6.79
+6.84
+6.77
+6.80
+6.4
+6.65
+6.79
+Reacción
+Básico
+Acido
+1 Ácido
+Acido
+Acido
+Acido
+Acido
+Acido
+Interpretación de los Resultados
+Nuestro suelo tiene un potencial de Hidrogeno de 6.79 como promedio, y nuestro rango va de: 6.4-7.3, al que asociamos con su ubicación, debido a que localiza en una zona volcánica, por lo que esta cargado de minerales; lo que significa que tendrá variaciones de ácido a neutro, potencial que estimula el crecimiento de las plantas, dándonos por consiguiente un suelo medianamente fértil.
+
+
+6.- Textura del Suelo
+La Textura se refiere a la fineza mayor o menor del suelo, de manera mas especifica, Textura es la porción relativa de concentración de arena, limo y arcilla.
+La tasa y el grado de las reacciones físicas y químicas importantes en el
+desarrollo de las plantas están gobernadas por la textura debido a que esta
+determinada la cantidad de la superficie en que pueden ocurrir las reacciones.
+La arcilla es el componente textural que tiene mayor superficie específica y la textura es capaz de influir en la mecánica, fertilidad y nutrición del suelo.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+Textura 1.- % Arena 2.- % Arcilla 3.- % Limo
+
+
+
+0-25
+1.-51.12 2.-48.8 3.-0.0
+
+
+51-75
+1.-62 2.-18 3.-20
+
+
+76-100
+1 - 7*5
+la           /   V/
+2.-10 3.- 14
+
+
+101-125
+1.-26.23 2.-9.85 3.-12.11
+-
+
+126-150
+1.-75.3 2.- 12.62 3.-12.08
+
+
+151-175
+1.-74.81 2.-12.5 3.-12.69
+
+
+176-200
+1.-78.79 2.- 8.44 3.- 12.76
+
+Promedio
+1.-63.32 2.-17.18 3.-11.94
+Interpretación de los Resultados
+El resultado más sobresaliente de la clase textural de nuestro suelo corresponde al elevado porcentaje de Arena, lo que interpretamos que es el material que esta mas expuesto a la Erosión Hídrica y estas arenas consideradas como textura gruesa denota una menor estabilidad de los agregados, haciendo mas fácil la erosión eólica.
+
+
+7.- Capacidad de Campo o de Retención
+La capacidad de retención depende de la cantidad de agua que se pierde y la velocidad con que se mueve.
+Los suelos orgánicos tienen espacios porosos pequeños y las partículas pueden absorber agua; En consecuencia la retención de humedad aumenta y el desplazamiento de la misma disminuye.
+La textura, el contenido de materia orgánica y la estructura afectan el movimiento y ia retención de la humedad en los suelos.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+MD-25
+51-75
+76-100
+101-125
+126-150
+151-175
+176-200
+Promedio
+Capacidad de Retención (%)
+24.84
+22.52
+23.7
+21.66
+23.54
+22.9
+23.43
+23.23
+	I
+Interpretación de los Resultados
+Al encontrar como textura “migaron arenoso” identificamos la deficiente capacidad del suelo analizado de retener el agua aprovechable, puesto que la granulometría de las partículas y el tamaño de los poros dificultan dicha retención.
+SE reafirma con esto la alta capacidad de drenaje con que cuenta este suelo.
+
+
+8.- Materia Orgánica
+La cantidad de materia orgánica se puede reducir de forma aproximada al quemar el suelo seco y determinar la diferencia en la perdida del suelo.
+La cantidad total en el suelo varía entre menos del 1% y más del 90% que corresponde al material inalterado de la capa superficial.
+La Materia Orgánica descompuesta mezclada con materia mineral, en los horizontes superficiales que constituyen el humus, que es el producto de la descomposición vegetal y de la síntesis microbiana, además de ser el responsable de establecer características únicas de los horizontes superiores.
+Los Horizontes superiores contienen menos de 15% de Materia orgánica.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-125
+126-150
+151-175
+176-200
+Promedio
+Materia Orgánica (%)
+2.76
+4.416
+1.77
+4.002
+2.48
+3.89
+4.14
+3.35
+Interpretación de los Resultados
+El resultado obtenido en cuanto al porcentaje promedio Materia Orgánica fue de 3.35%, considerado como alto según la dosificación de Ortiz (1984).
+Y según los resultados obtenidos en los primeros 10 centímetros superficiales
+identificamos un suelo ligeramente deficiente de Materia Orgánica, según Soil
+Sorvey Staff; Ya que encontramos una muy baja cantidad de hojarasca, debido
+en gran medida a que la vegetación es perennifolia, lo que dificulta la creación
+de humus (materia orgánica descompuesta).	
+La Materia Orgánica encontrada aporta Nitrógeno (N), Fósforo (P), Carbón (C), lo que favorece el desarrollo de la agricultura.
+
+
+9.- Intercambio Catiónico por Percolación
+Es una medida de la capacidad que tiene el suelo de intercambiar cargas cationicas por unidad de peso del suelo o de cargas negativas de arcillas y humus.
+El porcentaje de saturación de base indica el grado de saturación del complejo del intercambio con los cationes básicos, las bases intercambiables aumentan en relación inversa a la precipitación teniendo como resultado un suelo fértil sí es que se satura al 100%.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-
+125
+126-150
+151-175
+176-200
+Promedio
+Capacidad de Intercambio Caíiónicü (%)
+12.2
+12.37
+9.3
+8.37
+23.49
+6.22
+9.85
+11.65
+Interpretación de los Resultados
+Dado que el contenido de arcilla y Humus en nuestro suelo es un porcentaje muy bajo, identificamos que tiene baja capacidad de intercambio catiónico.
+Es decir, que son pocos los cationes intercambiables que son fuente importante de nutrientes para las plantas.
+
+
+10.- Cantidad de Carbonatos y Bicarbonatos
+Los carbonatos se encuentran distribuidos en los suelos, ya sean aislados o asociados con otras sales. Cuyas principales propiedades se encuentran:
+Es un nutriente esencial para el desarrollo de las plantas.
+Son las principales sustancias en acumularse desempeñando el papel de
+cementante.
+Datos del Análisis Realizado
+
+Profundidad(cm.)
+0-25
+51-75
+76-100
+101-125
+126-150
+151-175
+176-200
+Promedio
+Cantidad de 1.- Carbonatos
+1.-0
+0
+0
+0
+0
+0
+0
+0
+2- Bicarbonatos (Meq/IOOg)
+2.-
+0.14
+0.17
+0.13
+0.1
+0.16
+0.2
+0.26
+0.165
+Interpretación de los Resultados
+Nuestro suelo analizado no contiene carbonatos, lo que significa que no existe la aportación de Calcio (Ca) al suelo, limitando el desarrollo de algunas plantas y el bajo desarrollo o deficiencia de algunos cultivos.
+
+
+ Recomendaciones para mejor rendimiento de este Suelo
+
+• Es recomendable el empleo de Terrazas construyendo barreras vivas de vegetación o barreras muertas con troncos de árboles y rocas para retener el suelo y prevenir que se deslave, Esta barrera permitirá el paso del agua pero no del suelo. Para darle un mejor cultivo en la terraza se debe hacer arado paralelo al caballón   y disposición regular de surcos vacíos y surcos de retorno, haciendo más fácil conservar la terraza. Debe cuidarse no cultivar a través del lomo de la terraza porque lo aplana y requerirá de reparación inmediata. 
+• Un sistema de rotación de cultivos, implementando 2 cultivos como mínimo, dependiendo del temporal intercalando el maíz como cultivo principal como Primavera-Verano y secundario algunos como el fríjol, haba, alubias, sorgo, trigo, cebada, centeno o avena; Estos últimos cuatro se recomienda sembrarlos con un sistema de riego adecuado en el temporal de Otoño-Invierno. Se recomiendan estas leguminosas por tratarse de cultivos restauradores del suelo.
+• Tener una captación de agua de la lluvia, en base de tinas ciegas (Una oquedad que se  realiza  al  final  de  la  pendiente   para  captar el escurrimiento del agua proveniente de la precipitación) y utilizarla para el riego; Al mismo tiempo el suelo no se pierde.	
+• La utilización de abonos orgánicos comoo son el estiércol, la comporta, el humus de lombriz y cal; que también es contenida fertilizantes químicos, nitrogenados, nitrato de sodio, nitrato de calcio, cal-nitro; Ya que estos fertilizantes disminuyen la acidez del suelo, sin embargo en cantidades excesivas la capacidad de inmovilización del suelo seria satisfactoriamente superada y se presentaría la contaminación de nitratos en el agua freática. Omitir los abonos con elevadas concentraciones de Azufre ya que elevan la acidez,
+• Como prevención de plagas vegetales se recomienda una preparación adecuada del suelo a tiempo y a la profundidad óptima para el cultivo, rotación  del  cultivo,  uso  de semillas  libres  de  impurezas, drenaje adecuado, fertilización según las necesidades del cultivo, control de la acidez del suelo, destrucción de pajilla y otras impurezas, tomando en cuenta que no debe quemarse ya que ei suelo seria atacado por el frió, los rayos solares, el viento, la lluvia y haría al suelo mas susceptible a la intemperización.
+• Debe protegerse la semilla utilizando las semillas sanas libres de impurezas  y  el  depósito  donde  se  conserven  debe  estar  a   una temperatura  baja y libre de  humedad.  De ser necesario aplicar insecticidas que no afecten a la germinación como Lindano, Malation, Fosfina, Thimet, Di-Syston o Ekatin.
+
+
+Conclusiones
+De acuerdo con lo resultados obtenidos en el laboratorio se concluye que es un suelo ANDOSOL.       
+  El cual esta definido por ser un suelo formado a partir de cenizas volcánicas que se asocia con el relieve montañoso, posee una capa superficial suelta con A abundante materia orgánica. 
+En ocasiones se presenta una capa endurecida de drenaje deficiente, por estas circunstancias es muy susceptible a la erosión.
+Su distribución no esta restringida a un tipo de Clima particular encontrado tanto en climas templados como tropicales y puede ser muy variable.
+Debe dársele preferencia al uso forestal debido a las limitantes que posee para su aprovechamiento agrícola
+
+
+UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO FACULTAD DE FILOSOFÍA Y LETRAS
+COLEGIO DE GEOGRAFÍA LABORATORIO DE SUELOS
+
+
+Lat. N
+              
+
+POZON0   i 8 l9o    07*15'         Long. W      98°    44'     07"
+
+
+
