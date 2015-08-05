@@ -1,0 +1,36 @@
+﻿
+ACERCA DEL ÍNDICE DE DESARROLLO HUMANO
+
+El índice de desarrollo humano es un indicador compuesto que mide los avances promedio de un país en función de tres dimensiones básicas del desarrollo humano la esperanza de vida, la educación y alfabetización  y el nivel de vida medido por el PIB per cápita.
+
+ Los cálculos de la esperanza de vida provienen de las Perspectivas de Población en el mundo, la fuente oficial de los cálculos y las proyecciones demográficas de la ONU. Este organismo toma en cuenta también los efectos del SIDA como una tendencia demográfica en la mortalidad en los países más afectados por la epidemia. Este tipo de enfermedades afectan las proyecciones demográficas y se convierten en un verdadero desafió lo que convierte el calculo de la esperanza de vida en variable, pues en muchas ocasiones la realidad no corresponde a la proyección.
+
+La taza de alfabetización de adultos se obtiene a través de los censos demográficos que cada país realiza y se combinan con los cálculos de la UIS- Instituto de Estadística de la ONU. Los métodos de recopilación de estos datos varían de un país a otro por lo que  el UIS y otros organismos buscan una metodología alternativa para medir la alfabetización a través del llamado Programa de Evaluación y Seguimiento de la Alfabetización.
+
+La tasa bruta combinada de matriculación de enseñanza primaria, secundaria y terciaria se produce a partir de los datos copilados por cada uno de los países. Esta tasa se calcula dividiendo la cantidad de estudiantes matriculados en todos los niveles escolares entre la población total del grupo de edad oficial correspondiente a esos niveles. Esta tasa refleja el número de personas que asisten a las escuelas, más no así la calidad de los resultados de la educación, por lo que la tasa no refleja una buena educación. La repetición de los cursos y la deserción de estudiantes son dos factores más que desacreditan en menor proporción a esta tasa.
+
+El PIB per cápita se compara entre los países después de realizar una paridad entre ellos puesto que las economías son diferentes, así se convierte la estadística en términos de Paridad de Poder Adquisitivo (PPA). Los datos son obtenidos a través del Banco Mundial el cual cuenta con datos de 118 países, de los que no son parte del Banco Mundial se utilizaron diferentes métodos como a través de uso de regiones econométricas que implica recurrir a una gran cantidad de supuestos y la extrapolación en el tiempo, lo que convierte a los datos cada vez más inciertos. 
+
+El índice de desarrollo humano sirve para saber el avance de los países y el desarrollo de su población y economías, el índice se calcula cada cinco años con la finalidad de obtener datos más cercanos a la realidad,  pesar de que los datos de cada uno de los países se obtengas en diferentes momentos.
+
+En los países en que el índice de desarrollo humano es muy elevado se utiliza un método diferente, puesto que dicho índice marca diferencias mínimas entre las naciones. Así existe el índice alternativo de pobreza humana que refleja de manera más clara las carencias de una sociedad y ayuda a enfocarse a esos sectores para su mejora.
+
+
+ Comentario de los textos.
+
+La obtención de todos los datos anteriores arrojan datos, índices y estadísticas comparables que solo sirven para, por así decirlo, para calificar a un país, sin embargo estos números no reflejan la realidad, si bien los datos han sido obtenidos, en su mayoría, directamente de la población o a través de censos el numero final que se obtiene generaliza a sociedad homogéneas. Por ejemplo, una nación que cuente con un bajo índice de desarrollo humano significa que en efecto, la educación, economía  y esperanza de vida son deficientes, pero como en todas partes del planeta, existirán grupos que no tengan ninguna carencia dentro del mismo país y que por el contrario tengan una educación excelente, riquezas y la posibilidad de vivir por mucho tiempo.
+
+Con lo anterior trato de decir que el índice de desarrollo humano no es mas que el resultado de una operación matemática basada en datos obtenidos de la realidad pero no del total de las realidades de los países.
+
+Por otra parte me parece conveniente que se obtenga este tipo de datos, puesto que es una forma cuantificable para obtener estadísticas y realizar acciones para obtener resultados en todos aquellos elementos que  puedan estar fallando en el país para su total desarrollo ya sea económico o de su población en cuanto a la posibilidad de vivir por más tiempo y de obtener educación a niveles cada vez más altos.
+
+En cuanto a los objetivos de las naciones unidas me parecen muy acertados, el hecho de que la organización internacional se preocupe por los problemas que en las naciones existe es muy conveniente. Me llama la Atención el ultimo punto de sus objetivos en el cual se lee que se pretende formar una asociación mundial para el desarrollo, dentro de los puntos de este objetivo se habla de la problemática de países pequeños que no cuentas con salida al mar y establece la reproporción de el cobro de las deudas externas, así como destinar un porcentaje de los ingresos de los países ricos a para el desarrollo de los países pobres.
+
+Me parece conveniente también, la preocupación de la ONU por la lucha contra el SIDA y de otras enfermedades que azotan a la humanidad, si como la intención de que en cualquier parte del planeta, las personas terminen la educación primaria y erradicar el analfabetismo.
+
+Suenan muy bien los objetivos que se ha propuesto la ONU, pero eso no es lo importante, lo que interesa es que realmente se de una mejora en las naciones más atrasadas, para ello los índices que el organismo internacional obtiene son muy útiles, pues con ellos  determina la cantidad de ayuda que necesita un país. Lo único que queda por hacer es emprender acciones que ayuden al cumplimiento de dichos objetivos por parte de los gobiernos con la ayuda de los países desarrollados, pues de ellos de quienes al final dependen los países pobres.
+
+
+
+
+

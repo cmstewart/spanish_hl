@@ -1,0 +1,13 @@
+﻿
+INDICE DE DESARROLLO HUMANO
+
+El ICD es un indicador que nos informa sobre el desarrollo a nivel de global y a su vez en los diferentes países, se mide en  tres aspectos: Esperanza de vida, nivel de educación y el PIB. Y conjugando estos tres campos de estudio de cada país podemos sacar el nivel de desarrollo, que nos da una idea sobre la situación actual de la entidad.
+Esperanza de vida, aquí se miden todos lo rubros en lo que tenga que ver la salud, servicios de salud, con los que cuenta el país, tasas de mortalidad, morbilidad y natalidad, enfermedades mas frecuentes y causas de muerte mas suscitadas.
+Nivel de educación, en este campo se miden los niveles de alfabetización de la población, matricula de alumnos en los diferentes grados y el mayor grado de estudios en los que la mayoría de la población llega a obtener. Aunque también influyen en estas cifras, las bajas de alumnos, y los alumnos que salen al extranjero.
+El PIB y el nivel de vida, que se refiere a la economía del país, valor de la moneda usada y el poder adquisitivo de la población, esta información generalmente la capturan los bancos y son quienes sacan los porcentajes.
+
+Cada aspecto medido es una recopilación de información obtenida de varias organizaciones que se dedican a sacar estadísticas y censos para así concentrar toda la información y sacar los promedios definitivos en ciertos parámetros de tiempo.
+Estos tres aspectos que se manejan en el ICD no son arbitrarios para entender muy a fondo los problemas sociales de un país, debido a que cada entidad cuenta con sus propios problemas y estos a veces no entran en los tres aspectos mencionados, es por ellos que, la esperanza de vida, la educación y el PIB y poder adquisitivo son los marcadores mas representativos pero no abarcan un 100% de los problemas sociales.
+
+
+
