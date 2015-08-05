@@ -1,0 +1,59 @@
+﻿RESUMEN
+ACERCA DEL ÍNDICE DE DESARROLLO HUMANO PNUD 2005
+El Índice de Desarrollo Humano (IDH) es un indicador que mide los avances promedio de un país en función de tres dimensiones: vida larga y saludable según la esperanza de vida al nacer; educación medida por la tasa de alfabetización de adultos y la tasa bruta combinada de matriculación en enseñanza primaria, secundaria y terciaria; y nivel de vida digno medido por el PIB per cápita, el IDH es una alternativa seria al uso del ingreso como medida sinóptica del bienestar humano y proporciona una buena forma de acceder a la vasta información contenida.
+
+*La disponibilidad de datos determina los países que se incluyen en el IDH
+El IDH, incluye 175 países miembros de las Naciones Unidas, además de Hong Kong, China y los Territorios Palestinos Ocupados. Debido a la falta de datos comparables, 16 países miembros de la Naciones Unidas no fueron incluidos en el IDH. Se calcula, en la medida de lo posible, en función de la información disponible en el momento en que se elabora el Informe y que es entregada por los principales organismos productores de datos a nivel internacional (ver Principales fuentes internacionales de datos más adelante). Sin embargo, estos organismos carecen de datos de algunos países para uno o más de los cuatro componentes del IDH.
+
+En respuesta la Oficina encargada del Informe sobre Desarrollo Humano ha realizado gestiones especiales para conseguir cálculos de otras fuentes nacionales, regionales o internacionales. Esos cálculos han sido realizados por la propia oficina encargada del Informe y como no se fundan en las fuentes de los principales organismos internacionales, se documentan claramente en las notas del cuadro de indicadores. La calidad y fiabilidad de estos datos suele ser.
+
+*Principales fuentes internacionales de datos
+Esperanza de vida al nacer. Los cálculos de la esperanza de vida provienen de las Perspectivas de Población en el Mundo, la fuente oficial de los cálculos y las proyecciones demográficas de la ONU, a partir de datos de los sistemas de registro demográfico, encuestas y censos demográficos de los países.
+La División de Población de las Naciones Unidas incorporó datos nacionales disponibles hasta fines de 2004. Para evaluar el impacto del VIH/SIDA, se combinaron los últimos cálculos de la prevalencia del VIH preparados por el Programa Conjunto de las Naciones Unidas sobre el VIH/SIDA con una serie de supuestos acerca de las tendencias demográficas y la mortalidad tanto de las personas infectadas como de los no infectados en cada uno de los 60 países en los cuales se modeló explícitamente el impacto de la epidemia.
+
+Los cálculos sobre esperanza de vida publicados por la División de Población de las Naciones Unidas solían corresponder a promedios quinquenales y este año, por primera vez, la División produjo cálculos y proyecciones anuales sobre esperanza de vida a través de interpolaciones fundadas en estos promedios quinquenales.
+
+Tasa de alfabetización de adultos. Los datos sobre alfabetización de adultos por lo general se recopilan a través de censos demográficos (cada cinco o 10 años) o de encuestas por hogares. Los cálculos de los países, disponibles gracias a las acciones concertadas del UIS, también provienen de censos o encuestas nacionales 
+
+Una vez obtenidos niveles superiores de alfabetización, muchos países de ingresos altos dejan de recopilar estadísticas sobre alfabetización en los censos o encuestas por hogares nacionales y por ello no están incluidos en los datos de la UNESCO. Para calcular el IDH de esos países, se aplica una tasa de alfabetización de 99,0%. 
+
+Otros recurren a http://hdr.undp.org datos de logros educacionales como una variable substitutiva, pero las mediciones de la asistencia escolar o de la terminación de un curso o grado pueden variar. Dado que las definiciones y los métodos de recopilación de datos varían entre un país y otro. 
+
+El UIS, en colaboración con otros organismos asociados, busca una metodología alternativa para medir la alfabetización a través del llamado Programa de Evaluación y Seguimiento de la Alfabetización.
+
+Tasa bruta combinada de matriculación en enseñanza primaria, secundaria y terciaria. El Instituto de Estadísticas de la UNESCO produce tasas brutas de matriculación a partir de datos de matriculación recopilados por los gobiernos nacionales y datos demográficos de las Perspectivas de Población en el Mundo. Las tasas se calculan dividiendo la cantidad de estudiantes matriculados en todos los niveles escolares por la población total del grupo de edad oficial correspondiente a esos niveles. 
+Se solicita información a los países sobre la cantidad de estudiantes matriculados a comienzo del año académico en cada nivel de educación de acuerdo con la definición de la Clasificación Internacional Normalizada de la Educación (CINE). Esta tasa no refleja la calidad de los resultados de la educación e incluso, puede encubrir diferencias importantes entre los países debido a disparidades en la escala de edades que corresponde a un determinado nivel de educación y en la duración de los programas escolares. Los factores como la repetición de cursos y las tasas de deserción también pueden generar distorsiones en los datos. En la actualidad, la tasa bruta combinada de matriculación no toma en cuenta a los estudiantes matriculados en otros países. Los datos actuales de muchos países pequeños, cuyos habitantes acuden masivamente al extranjero a cursar estudios terciarios, podrían traducirse en una subrepresentación importante del acceso a la educación y así arrojar un valor de IDH más bajo.
+
+PIB per cápita. El Banco Mundial aporta datos sobre el PIB de 164 países para calcular el IDH, los que se basan en información sobre precios de las últimas encuestas del Programa de Comparación Internacional y el PIB en moneda local proveniente de los datos de cuentas  nacionales. 
+
+Los cálculos de los países que no están incluidos en las encuestas de referencia se realizaron a través de regresiones econométricas. Por último, para los países que no pertenecen al Banco Mundial, se usaron cálculos de la PPA provistos por las Penn World Tables de la Universidad de Pennsylvania.
+
+En el caso de Cuba se formó un equipo técnico de expertos nacionales e internacionales que investigó diferentes metodologías para obtener un mejor cálculo de la PPA. La actual serie de datos de la PPA adolece de múltiples deficiencias, entre la  cuales está la falta de cobertura universal, la oportunidad de los datos y la uniformidad en la calidad de los resultados provenientes de diferentes regiones y países. 
+
+La importancia de las Paridades del Poder Adquisitivo en el análisis económico acentúa la necesidad de mejorar los datos en este sentido. Por lo tanto, se ha acordado realizar una nueva Ronda del Milenio del Programa de Comparación Internacional, la cual promete grandes mejoras en los datos de la PPA para efectos de los análisis de políticas económicas y la evaluación de la pobreza internacional. 
+
+*Comparaciones en el tiempo y entre las ediciones del informe
+El IDH es una herramienta de gran importancia para seguir las tendencias del desarrollo humano a través del tiempo. El índice se calcula en intervalos de cinco años para el período 1975 a 2003. Estos cálculos, se basan en una metodología coherente y en datos de tendencias comparables disponibles en el momento en que se elabora el Informe.
+
+Muchas veces los cambios que sufren de año en año los valores del IDH y las clasificaciones entre una edición y otra del Informe sobre Desarrollo Humano se deben más a revisiones de los datos que a cambios efectivos en el país. 
+
+Un determinado país puede bajar considerablemente de lugar entre dos Informes consecutivos, pero también puede mejorar su posición cuando se usan datos revisados y comparables para reconstruir el valor del IDH de los últimos años. Por estos motivos, para analizar tendencias del IDH no se deben usar datos de ediciones diferentes del Informe. 
+
+*IDH para países de alto desarrollo humano
+El IDH de este Informe está construido para cotejar los logros comparables de los países en todos los niveles del desarrollo humano. Los indicadores que actualmente se usan en el Índice arrojan diferencias muy pequeñas entre los países de la parte superior del IDH y, por lo tanto, la cúspide 
+
+de la clasificación del IDH suele reflejar diferencias sólo menores en estos indicadores básicos. Para estos países de ingresos altos, existe un índice alternativo, el índice de pobreza humana, que refleja mejor el alcance de las privaciones humanas que aún persisten entre sus
+habitantes y ayuda a orientar el centro de atención de las políticas públicas.
+
+COMENTARIO
+Como se puede ver los aspectos tomados en cuenta para el cálculo del IDH, son tanto limitados como arbitrarios. En primer lugar el criterio que se toma para el cálculo de los del IDH es deficiente; todo esto tiene relación directa con el hecho de quien o quienes han de marcar de una manera soberbia lo que para ellos son los países desarrollados ó subdesarrollados. El hecho de etiquetar un país por aspectos que no son de la total realidad, va más allá de tener un control y un registro de esos países y que con ello se puede ayudarlos, si presentan un IDH bajo (según la ONU).
+
+No debemos olvidarnos de quién está de todo esto, y no descartar la posibilidad de que Estados Unidos junto con otros países de gran peso económico utilizan estos falsos números para aplicar sus políticas de intromisión, así como para ejercer presión a Naciones Unidas y tomar un cierto carácter hacia esos países.
+
+En otro aspecto, se debe mencionar que no todos los países tienen una relación con Naciones Unidas ó están adscritas a ello; en este caso se realiza con ellas –tomando otros parámetros- un cálculo especial, que si bien con los pises adscritos, que proporcionan sus datos, no son muy acertados los índices, imaginemos que esperamos de esos países en cuanto a la veracidad de los datos arrojados.
+
+En la metodología utilizada en el cálculo de estos índices también queda como un dato ambiguo y abstracto, ya que los datos que aporta cada país son considerados como una totalidad y en respuesta obtenemos a esa totalidad dividida entre las personas, lo que nos da un promedio.  
+
+
+
+

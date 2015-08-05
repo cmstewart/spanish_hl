@@ -1,0 +1,83 @@
+﻿LABORATORIO DE SUELOS 
+Pozo N° 2
+Análisis de las muestras obtenidas en la práctica de campo
+El suelo
+E| suelo es un sistema muy complejo que sirve como soporte de las plantas, además de servir de despensa de agua y de otros elementos necesarios para el desarrollo de los vegetales. El suelo es conocido como un ente vivo en el que habitan gran cantidad de seres vivos como pequeños animales, insectos microorganismos (hogos y bacterias que influyen en la vida y desarrollo de las plantas de una forma u otra.
+El suelo es un sistema abierto, dinámico constituido por tres fases. La fase sólida esta formada por los componentes inorgánicos y los orgánicos, que dejan un espacio de huecos (poros, cámaras, galerías, grietas y otros) en el que se hallan las fases liquida y gaseosa (principalmente oxigeno y dióxido de carbono). El volumen de huecos esta ocupado principalmente por agua que puede llevar iones y sustancias en solución o suspensión, por aire y por las raíces y organismos que viven en el suelo. Todos estoa elementos le dan sus propiedades físicas y químicas.
+Se puede hablar sobre la evolución del suelo, es decir, cambio de sus características basándose en el clima, presencia de animales y plantas y la acción del hombre. Por lo tanto un suelo natural, en el que la evolución es lenta es muy diferente de uno cultivado.
+Por tanto, la gestión adecuada de un suelo que es necesaria para poder preservar su fertilidad obtener mejores resultados y respetar el medio ambiente Por otro lado, analizar un suelo es necesario si queremos gestionarlo adecuadamente.
+Perfil del suelo joven o inmaduro.
+Es un suelo en el que aun no existe el proceso de ajustamiento con su ambiente. Este se forma a medida que la influencia de la meteorización va haciéndose constructora, en el aspecto del suelo y a la presencia de materia orgánica, la cual empieza a ejercer su influencia desarrollándose gradualmente.
+Perfil de un suelo maduro bien desarrollado.
+Los factores ambientales afectan a este tipo de suelo gradualmente en su influencia, las características nuevas o adquiridas van resultando dominantes y el perfil va formándose mucho más cumplidamente. Las características heredadas, aun evidentes, llegan a ser definidamente de menor importancia en la determinación de las propiedades del suelo.
+Perfil de un suelo maduro altamente desarrollado (ideal):
+Es aquel suelo que presenta los cuatro horizontes comunes de un suelo, como son
+A, 3, C, y R. es un suelo ideal para su uso en la agricultura.
+
+
+Perfil de un suelo erosionado.
+Este tipo de suelo presenta su perfil completo, pero que a causa de la erosión hídrica va perdiendo horizontes superficiales que pueden ser en partes o totalmente.
+Humedad del suelo
+El suelo, desde el punto de vista hidrológico, es un depósito o almacén de agua cuya capacidad para retenerla y contenerla depende de sus propiedades físicas. Un suelo esta saturado cuando todos sus poros o espacios están llenos de agua, es decir, cuando el agua s e encuentra llenando su porosidad. En esta situación el suelo se encuentra sin aire.
+La fuerza que interviene cuando el suelo esta saturado de agua es la gravedad, en esta situación el agua circula libremente entre los espacios y desciende su profundidad. Dicha agua se denomina libre o sin gravedad.
+Este estado desaparece por percolación del agua en un tiempo que varia según la textura del suelo, horas en suelos arenosos y días en arcillosos. Después una parte de agua queda en el suelo, retenida por fuerzas superiores a la gravedad y al desaparecer parte del agua que saturaba al suelo, el aire llena el espacio que deja. El agua retenida por fuerzas superiores a la gravedad es el agua capilar, que llena los espacios capilares y es retenida por fuerzas capilares producidas por el contacto aire-agua. En estos contactos se forman meniscos que retienen el agua a disposición de las plantas. El agua capilar es la que verdaderamente retiene el suelo, por ello el agua de lluvia puede permanecer en el terreno a disposición de las plantas. El estudio del agua capilar es importante para di riego, ya que es preciso conocer la capacidad de este depósito para poder cubrir las necesidades de las plantas.
+Para el conocimiento del contenido de humedad del suelo existen métodos gravimetricos, densimetricos y eléctricos.
+Un método gravimetrico es el de desecación en la estufa, que consiste en obtener muestras representativas del suelo, se pesan y se introducen en la estufa durante 7A horas a 105-110° C, dando un nuevo peso. La medida de humedad se expresa en porcentaje referido al peso del suelo seco. 
+La humedad de la muestra es de 44. 7% y aun necesita aumentar en un 55. 3% para saturarse.
+Infiltración
+La infiltración es el movimiento del agua de la superficie hacia el interior de la superficie del suelo. Del agua infiltrada se proveen casi todas las plantas terrestres y muchos animales, alimenta al agua subterránea y a la vez ala mayoría de las corrientes en el periodo de estiaje; reduce las inundaciones y erosión del suelo.
+En el proceso de infiltración se pueden distinguir tres fases:
+a) intercambio. Se presenta en la parte superior del suelo donde el agua puede retornar a la atmósfera por medio de la evaporación debido al movimiento capilar o por medio de la transpiración de las plantas
+
+
+a) Transmisión. Ocurre cuando la acción de la gravedad supera a la de la capilaridad y obliga al agua a deslizarse verticalmente hasta encontrar una capa impermeable.
+c) Circulación. Se presenta cuando el agua se acumula en el subsuelo debido a la
+presencia de una capa impermeable y empieza a circular por la acción de la gravedad, obedeciendo las leyes del escurrimiento subterráneo.
+Es la cantidad máxima de agua en un suelo que un suelo puede absorber por unidad de superficie horizontal y por unidad de tiempo. Se mide por la altura de agua que se infiltra expresada en mm/h.
+La capacidad de infiltración disminuye hasta alcanzar un valor casi constante a medida que la precipitación se prolonga, y es entonces cuando empieza el escurrimiento.
+A la lluvia que es superior a la capacidad de infiltración se le denomina lluvia neta (es la que escurre). A la lluvia que cae en el tiempo que hay lluvia neta se le llama lluvia eficaz, por lo tanto, la lluvia neta equivale a la lluvia eficaz.
+La determinación de la infiltración se puede hacer empleando lisimitros o parcelas de ensayo, de manera análoga a la medida de la evaporación y de las evapotranspiracion desde el suelo. Sin embargo, por las razones expuestas con respecto al inconveniente de estos métodos, es normal hacer determinaciones insitu.
+El aparato que se usa es muy sencillo, es el ínfiltrometro. El mas común, consiste en un cilindro de 15cm de largo y fijo, aproximadamente de 20cm; se pone en el una determinada cantidad de agua y se observa el tiempo que tarda en infiltrarse. A este aparato se le atribuyen algunos defectos: el agua se infiltra por el circulo que constituye el fondo, pero como alrededor de el no se esta infiltrando agua, las zonas del suelo a los lados del aparato participan también en la infiltración, por lo tanto, da medidas superiores a la realidad.
+El error apuntado se corrige colocando otro tubo de mayor tamaño (40cm) alrededor del primero, constituye una especie de corona protectora. En este también se pone agua aproximadamente al mismo nivel, aunque no se necesita tanta presión como en el interior; con eso se evita que el agua que se interesa medir se pueda expandir.
+La medición es menor que la que se hubiera obtenido antes y más concordante con la capacidad del suelo.
+Hay otro método que no utiliza aparato alguno, sino simplemente consiste en hacer un agujero se dimensiones conocidas en el suelo. Se llena de agua hasta cierta altura y se mide la variación de esa altura a través del tiempo. Como la infiltración se introduce tanto por el fondo como por las paredes, el caudal infiltrado será igual a la superficie del cilindro por el coeficiente de infiltración.
+El resultado de la practica de campo fue de 35. 1 cm. en 90 minutos.
+
+
+Color del suelo
+Una de las propiedades del suelo que se puede observar a simple vista es el color. Se utiliza para diferenciar los horizontes y para clasificar los diferentes tipos de suelos. Por ejemplo, los grandes grupos de suelos como los podsólicos rojos y amarillos; las tierras pardas; los suelos marrones forestales y los suelos negros (chernosem).
+Los suelos de colores oscuros absorben más el calor, mientras que los de colores
+claros lo reflejan. La cubierta vegetal también absorbe y refleja el calor, por lo que
+actúa como regulador o amortiguador del calor. Los colores del suelo tienden a ser
+menos grises y más rojizos con el incremento de la temperatura. 	
+Los colores de los suelos están relacionados con la absorción (albedo y capacidad calorífica) y conservación del calor y por lo tanto con la capacidad de retención de humedad.
+El color del suelo depende tanto de los procesos pedogenéíicos (que lo originan) como la composición de la materia madre de la que se derive. La mayor parte de los minerales constituyentes del suelo son de color claro como el cuarzo y los feldespatos. Por lo general, el color del suelo se lo proporcionan pequeñas cantidades de óxidos metálicos como el fierro, el manganeso y la materia orgánica. Los suelos que contienen fierro son rojizos debido a los compuestos férricos si están bien aireados y son de color amarillo si tienen aireación intermedia. Los compuestos ferrosos de color azul y verde, con frecuencia se encuentran en condiciones mal aireadas, es decir, condiciones de reducción química. Los suelos moteados indican condiciones alternadas de buena y mala aireación. Los compuestos de manganeso y la materia orgánica producen colores oscuros en los suelos. La pigmentación del humus es menos intensa en las regiones húmedas que en las áridas, los colores pardos predominan en los materiales vegetales ligeramente descompuestos y en los materiales vegetales casi totalmente descompuestos, son de color negro.
+El color es un indicador de varias características importantes del suelo, como su origen geológico y el grado de intemperización del material edáfico, así como su grado de oxidación y reducción, contenido de material orgánico, lixiviación o acumulación de compuesto químicos. El color no es un indicador muy confiable de las condiciones del suelo debido a que hay otros factores que tienen mayor importancia, por ejemplo, el color gris de un horizonte en suelos mal drenados, se debe a ios compuestos ferrosos del suelo, pero un color similar es resultado de la lixiviación del fierro y de materia orgánica del horizonte A2 de los podsoles.
+El color es una característica de los suelos que se relaciona con el material parental, el contenido de materia orgánica, la condición de drenaje y aireación del suelo. Se utilizan tres variables de matiz (hue), que varía del rojo al amarillo, la intensidad (value), que se define como pureza y varía de 0 a 10 y que es modificada por el tono (chroma), que varía del 10, blanco, al 0, negro. Por ejemplo, color 5YR5/4 = olivo, donde 5YR representa el matiz, 5, intensidad y 4, tono. Color negro  indic3, generalmente, abundancia   de  materia   orgánica, sin   embargo, en 
+
+suelos derivados de caliza, ricos en calcio, magnesio o sodio, no es totalmente cierto. 	
+En ocasiones, las arenas deben su color negro a la presencia de magnetita (Fe302) o de ilmenita (titanato de fierro, FETIO3).
+El color rojo, indica abundancia relativa de hematina (Fe203), es común en suelos tropicales con buen drenaje y aireación y por lo tanto buena estructura.
+Los estratos superficiales de color oscuro absorben el calor con mayor facilidad que los de colores claros, pero a causa de su contenido en materia orgánica, que, generalmente es mayor, a menudo tienen un mayor contenido de humedad. Por lo tanto, los suelos oscuros se calientan más lentamente que los suelos de color claro bien drenados. Cabe hacer notar que aunque el color del suelo influye en el calentamiento de los suelos sin vegetación, su efecto es mucho menor en suelos forestados.
+Determinación del color:
+-En seco
+Se coloca la muestra de suelo en una de las cavidades de la placa de porcelana, apretándolo muy ligeramente con la espátula y eliminando el exceso al borde de la cavidad.
+Sobre el suelo se van  pasando  las perforaciones circulares de la tarjeta y se compara directamente con los cuadros coloreados, hasta encontrar aquel
+Subdivisiones
+Los andosoloes ócricos tienen un horizonte ócrico A y un horizonte B; los andosoles molicos tienen un horizonte mólico A; los andosoles humitos tienen un horizonte húmico A; los andosoles vitricos carecen de consistencia grasosa.
+Densidad aparente
+Densidad aparente o peso especifico aparente, es la relación entre el peso de un volumen de suelo seco, y el peso del mismo volumen de agua. Este concepto tiene en cuenta la textura, la estructura y la compactación.
+Densidad real
+La densidad real o también llamada como la densidad de las partículas del suelo, es la masa de las partículas sólidas o el volumen total de un suelo. Aunque generalmente a la densidad real se le otorga un valor de 2. 65 gr/cm3.
+PH
+La reacción de un suelo hace referencia al grado de acidez o basicidad del mismo y generalmente se expresa por medio de un valor de pH del sistema suelo-agua. El pH es la medida de concentración de iones de hidrógeno [H+]. Según este valor,
+
+
+un suelo puede ser ácido, neutro o alcalino. Las propiedades físicas, químicas y biológicas están influenciadas por la acidez o basicidad del medio, que a su vez condicionan el uso agronómico del suelo. Así las plantas prefieren rangos de pH de 5. 5 a 7. 5, pero algunas especies prefieren suelos ácidos o alcalinos. Sin embargo, cada planta necesita un rango específico de pH, en el que poder expresar mejor su potencialidad de crecimiento.
+Del pH también dependen los procesos de humificación. En función del pH también se producen distintos tipos de materia orgánica en el suelo y propiedades que influyen directamente sobre el crecimiento vegetal como el movimiento y disponibilidad de los nutrientes o los procesos del intercambio cationico.
+El pH influye sobre la movilidad de los diferentes elementos del suelo: en algunos casos disminuirá la solubilidad, con los que las plantas no podrán absorberlos; en otros el aumento de la solubilidad debida al pH, hará para determinados elementos sea máxima (por ejemplo, cuando hay mucha acidez se solubiliza enormemente el aluminio pudiendo alcanzarse niveles tóxicos). Cada planta necesita elementos en diferentes cantidades y esta es la razón por la que cada planta requiere un rango particular de pH para optimizar su crecimiento.
+Conclusión.
+El resultado de los análisis de suelo realizados en Amecamaca determinan que es un suelo de tipo Andosol, con las siguientes características; son suelos formados a partir de cenizas volcánicas; por tanto, se asocian a relieves montañosos. Paseen una capa superficial muy suelta con abundante materia orgánica muy frecuentemente se presenta una capa endurecida de drenaje deficiente como límite interno (tepetates); por estas circunstancias son muy susceptibles a la erosión. En cuanto a su potencial de aprovechamiento, dado que su distribución no está restringida a un tipo de clima particular encontrándolos tanto en climas templados como tropicales, puede ser muy variable; aunque debe dársele preferencia al uso forestal debido a las limitantes que poseen para su aprovechamiento agrícola: retienen fuertemente ciertos elementos nutritivos, tales como el fósforo y el potasio, son suelos relativamente ácidos y pueden llegar a desarrollar toxicidad por exceso de aluminio. Como se mencionó, las condiciones topográficas en que se ubican restringen el uso de maquinaria. En esta región, los andosoles son especialmente importantes pues se presentan a todo lo largo del eje Neovolcánico
+Subdivisiones
+Los andosoloes ócricos tienen un horizonte ócrico A y un horizonte B; los andosoles molicos tienen un horizonte mólico A; ios andosoles humitos tienen un horizonte húmico A; los andosoles vitricos carecen de consistencia grasosa.
+Se recomienda el cultivo de árboles frutales como la Nuez de Castilla, Pera, Manzana, Chabacano, Capulín, la ciruela amarilla y roja.
