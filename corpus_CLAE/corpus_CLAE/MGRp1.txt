@@ -1,0 +1,85 @@
+﻿Laboratorio de Suelos 
+
+Tabla del análisis realizado. Pozo n°1
+
+INTRODUCCIÓN:
+Después de realizar el trabajo en campo y obtener las muestras necesarias, es necesario el trabajo en el laboratorio para conocer las características principales del suelos, como: la determinación de la humedad, la densidad real y aparente, el color del suelo, pH, textura, capacidad de campo, la cantidad de M.O., la capacidad de intercambio de cationes, y la determinación de carbonatos v bicarbonatos.
+ El trabajo toma en cuenta los promedios obtenidos de 28.5-57cm, 85.5-144cm, v 114-142.5cm del perfil, los resultados de las demás divisiones del perfil se desconocen por razones ajenas a los integrantes cíe este equipo.
+ Por medio del análisis e interpretación de estos resultados se pretende comprender la relación existente entre las propiedades ya mencionadas, así como el entendimiento de los resultados obtenidos.
+La tabla que a continuación se presenta contiene los resultados de cada división del perfil así como los promedios finales de este.
+
+
+DETERMINACIÓN DE LA HUMEDAD DEL SUELO
+La humedad juega un rol fundamental en el comportamiento de las propiedades físicas, químicas y biológicas del suelo. El agua del suelo transporta sustancias a través del perfil de este. El régimen de humedad de un suelo determina los tipos de plantas que crecerán en este, afectando además la forma en que se distribuyen las raíces. El contenido de humedad del suelo puede cambiar rápidamente, pudiéndose incrementar en minutos u horas. En contraste, la fase de secamiento puede tomar semanas o meses.
+De esta forma podemos comprender que nuestro suelo expuesto a investigación nos dio una determinación de humedad del 41.67 % que entra en el rango de los suelos típicos en un rango de 5 a 50 % cuando se encuentran en su máxima capacidad de retención (capacidad de campo).de esta manera observamos que nuestro suelo tiene una buena capacidad de campo y absorción de agua.
+COLOR DEL SUELO
+(tabla de munsell)
+El color del suelo es una de las características morfológicas más importantes, es la más obvia y fácil de determinar, permite identificar distintas clases de suelos, es el atributo más relevante utilizado en la separación de horizontes y tiene una estrecha relación con los principales componentes sólidos de este recurso. El objetivo de este trabajo es destacar el significado del color del suelo, así como las relaciones que él tiene con condiciones edáficas particulares. Se describen los sistemas más empleados en la designación del color, siendo el Sistema Munsell el de mayor uso. Los factores que influyen en la apreciación del color son la calidad e intensidad de la luz, la rugosidad de la superficie reflectora y la humedad de la muestra. El color del suelo es complejo, la medición se realiza mediante la comparación de la muestra con las plaquitas de colores que componen cada una de las hojas de Huf (matiz). Se evalúa el color predominante (color de la matriz del suelo), que se corresponde con el que ocupa más del 50% del volumen del suelo. Cuando existen varios colores, donde ninguno de ellos corresponde a más del 50% del volumen, se determinan todos los colores, comenzando con el que ocupa el mayor porcentaje. El color puede ser utilizado como una clave del contenido de ciertos minerales en el suelo, fundamentalmente minerales férricos ya que ellos proveen la mayoría y la mayor variedad de pigmentos al suelo. Se describe la variedad de colores (negro, rojo, amarillo, marrón, gris, entre otros) sobre la base del origen de los pigmentos y su relación con determinadas condiciones ambientales.
+Palabras clave: Color; Sistema Munsell; Características Morfológicas; Génesis de Suelos; Materia Orgánica; Fertilidad.
+Importancia
+
+El color en sí mismo es de poca relevancia: su verdadera importancia radica en que el suelo tiene un conjunto de atributos que de alguna forma se relacionan con el color, siendo este diferente entre horizontes y entre distintas clases de suelos. En consecuencia, cualquier error en su determinación acarrea conclusiones equivocadas respecto a las características que se relacionan con él.
+COLOR EN SECO
+Color amarillo a marrón amarillento claro: por lo general es indicativo de meteorización bajo ambientes aeróbicos (oxidación), ocurre como en el caso de la goetita, donde cristales grandes de este mineral confieren una pigmentación amarilla al suelo, mientras de cristales pequeños de este mineral confieren tonalidades de color marrón; más frecuentemente estos colores asociados a la goetita ocurren en climas templados. Se relaciona con condiciones de media a baja fertilidad del suelo. En general se asocia con la presencia de Óxidos hidratados de Fe3+.
+COLOR EN HUMEDO
+Color marrón: este color está muy asociado a estados iniciales a intermedios de alteración del suelo; se relaciona con condiciones de niveles medios a bajos de materia orgánica y un rango muy variable de fertilidad. En general se asocia con la ocurrencia de materia orgánica ácida parcialmente descompuesta. Combinaciones de óxidos de Fe más materiales orgánicos.
+DETERMINACIÓN DE DENSIDAD APARENTE
+Los suelos orgánicos tienen muy baja densidad aparente en comparación con los suelos minerales, existen una considerable variación dependiendo de la naturaleza de la materia orgánica y el contenido de humedad en el momento del muestreo para determinar la densidad aparente. Son comunes valores entre 0.2 s 0.6 g/cm de esta manera nos da entender que nuestro suelo tiende a tener una composición mineral
+DENSIDAD REAL
+
+Mediante esto pasamos ala densidad real que es La densidad absoluta, también llamada densidad real, expresa la masa por unidad de volumen. Cuando no se hace ninguna aclaración al respecto, el término densidad suele entenderse en el sentido de densidad absoluta:
+Otra de las maneras de comprender los cambios ocurridos se puede decir que fue dado que la mayor parte de la materia mineral de los suelos ordinarios consta de cuarzo, feldespatos y arcillas la densidad del suelo mineral libre de materia orgánica, es generalmente del orden de 2.65 se puede decir que esta
+
+
+unidad es la unidad media, nuestro porcentaje obtenido en las practicas nos da por resultado que nuestro suelo esta compuesto en su mayoría por materia mineral y poca composición de materia orgánica como lo a de ver observado son completamente relacionados densidad aparente con la densidad real.
+PH TOMADO POR PAPEL INDICADOR Y CON POTENCIÓMETRO
+El PH por lo general se considera como una propiedad muy importante del suelo ya que tiende a estar correlacionado con otras propiedades, tales como el grado de saturación de bases además muchos suelos , presentan patrones verticales característicos en sus valores de Ph , en efecto Northeote(1971) en su sistema de clasificación del suelo como una propiedad principal . Normalmente, la reacción del suelo tiene un rango entre pH 3 a 9, pero en ocasiones se registra valores fuera de esos límites.
+El pH del suelo es generalmente considerado adecuado en agricultura si se encuentra entre 6 y 7. Pueden obtenerse buenos rendimientos agropecuarios. Sin embargo, a partir de tal umbral las producciones de los cultivos pueden mermarse ostensiblemente.
+En la mayoría de los casos, los pH altos son indicadores de la presencia de sales solubles, por lo que se requeriría acudir al uso de cultivos adaptados a ios ambientes salinos. Del mismo modo, un pH muy ácido, resulta ser otro factor limitante para el desarrollo de los cultivos, el cual puede corregirse mediante el uso de enmiendas como la cal. Del mismo modo., a veces se aplican de compuestos de azufre con vistas a elevar el pH de los suelos fuertemente ácidos. Esta es una referencia de los tipos de ph pero nuestro pozo obtuvo un PH que se encuentra entre los limites 6.15 en papel indicador y en potenciómetro 6.75, de esta forma podemos expresar que nuestro suelo entra todavía en los limites de un suelo adecuado para la agricultura
+TEXTURA DEL SUELO
+La textura del suelo se refiere a la finura mayor o menor del suelo. De manera más especifica, textura es la proporción relativa de arena, limo y arcilla (D. Foth, 1985).
+Mediante el uso del método del hidrómetro desarrollado por Bouyoucos, se determino el contenido de arena, limo y arcilla, en el cual se obtuvieron los resultados de la tabla de resultados.
+De acuerdo con los resultados obtenidos se determino la clase de textura del suelo mediante el uso del "triangulo de texturas" el cual dio como resultado final: MIGAJÓN.
+
+
+Este suelo puede presentar un potencial de contracción-expansión debido a la cantidad que presenta de arcilla. Este potencial es una medida del cambio de volumen del suelo cuando se moja y se seca.
+Con la cantidad de arcilla que presenta el suelo, el suelo tendrá características pegajosas que dificulten en ellos la labranza o la escarda.
+La textura y la estructura del suelo influyen mucho en el peso y el espacio poroso. A medida que aumenta la densidad del suelo, el espacio poroso disminuye y viceversa. Nosotros estamos interesados en las relaciones de densidad u espacio poroso debido a que es ese espacio se almacenan se mueven el aire y el agua. Las raíces de las plantas y otros organismos del suelo también necesitan espacio para vivir.
+Cuando se considera el arreglo de la arena, limo y arcilla, se aplica la palabra estructura para referirse a la agregación de las partículas primarias del suelo en partículas compuestas, que están separados de los agregados adyacentes por debilidad de las superficies. La estructura modifica la influencia de la textura respecto a las relaciones de humedad y aireación, disponibilidad de los nutrientes de las plantas, acción de los microorganismos y desarrollo de las raíces.
+De acuerdo al porcentaje obtenido en arcilla (46.11%), el suelo puede presentar características plásticas y el suelo dependerá de una estructura granular bien desarrollada, que facilite la aireación y el movimiento del agua, para que el suelo obtenga valor para producción de cosechas.
+La arcilla u el humus tienen capacidad para unir partículas y son los principales agentes a los que se debe gran parte de la agregación en los horizontes superiores del suelo.
+CAPACIDAD DE CAMPO O CAPACIDAD DE RETENCIÓN.
+La capacidad de campo se define como la cantidad de agua que un suelo retiene contra la gravedad cuando se deja drenar libremente.
+El agua en la parte superior del perfil seguramente presentaba una tendencia a moverse dentro del suelo subyacente ya que todo el perfil estaba húmedo. Probablemente el agua en las capas inferiores, presentaba una menor tendencia a moverse dentro del suelo subyacente, porque él suelo en las capas inferiores, aunque estaba húmedo no lo era tanto como las capas mas arriba, debido a que las fuerzas de retención en el suelo húmedo están balanceados por la capacidad de los poros en el suelo menos húmedo para jalar el agua hacia abajo.
+
+
+El agua entre la saturación y la capacidad de campo tiene una baja tensión u es absorbida fácilmente por las raíces de las plantes.
+MATERIA ORGÁNICA DEL SUELO.
+El termino materia orgánica hace referencia a la mezcla compleja que se caracteriza por su estabilidad y su alta descomposición. Humos es la palabra empleada para referirse a la materia orgánica que ha sufrido una descomposición extensiva y que es bastante resistente a cualquier alteración posterior (Millar, Turk, Foth, 1975).
+Debido a que el contenido de arcilla en el suelo es dominante, se puede dar un aumento creciente en la materia orgánica del suelo.
+El aumento de materia orgánica en el suelo hará que este tenga una mejor capacidad de retención de agua.
+El contenido de materia orgánica afecta a la textura de la capa superior de tierra, al convertir las arenas y arcillas en tierra más ''negra", dando más cuerpo al suelo arenoso y haciendo más trabajable a la tierra arcillosa (Davies, Tagle, Finney, 1982).
+INTERCAMBIO DE CATIONES.
+La adsorción de un catión por un núcleo o micela coloidal y la liberación subsecuente de uno o más iones retenidos por el núcleo, es denominada intercambio de cationes. La capacidad de intercambio de cationes (CIC) es una expresión del número de sitios de adsorción de cationes por unidad de peso del suelo. Se define como la suma total de cationes intercambiables adsorbidos, expresados en miliequivalentes por 100 g de suelo secado al horno.
+Con un intercambio de cationes de 11.76% este suelo pude ser clasificado con un nivel de fertilidad alto, en donde este intercambio podrá aportar 5.0 CIC/1OOg de Ca, 2.0 CIC/lOOg de Mg, y .3 CIC/100 g de K. El pH como ya vimos será de 5.5-7.3. Las especies que necesitan características como estas son: el Roble Blanco, Nogal, Arce Duro, Tilo, Cedro Blanco.
+DETERMINACIÓN DE CARBONATOS Y BICARBONATOS.
+
+Las salas solubles sólo se encuentran en proporciones significativas en suelos de zonas áridas y semiáridas en las cuales se acumulan debido a que la precipitación anual es insuficiente para lixiviar los suelos o debido a que las aguas freáticas están a poca profundidad y se jala humedad a la superficie llevando con ella sales disueltas que se quedan en sitios al evaporarse la humedad. Los aniones predominantes son bicarbonato, carbonato, sulfato y cloruro y entre los cationes se encuentran sodio, calcio, magnesio y cantidades pequeñas de potasio.
+
+
+
+
+
+Debido a la poca presencia de carbonatos y bicarbonatos en el suelo, no dan al suelo las diversas propiedades que en algunos casos pueden ser perjudiciales para el crecimiento de las plantas.
+Se entiende que con la ausencia de carbonato de calcio el pH del suelo se mantenga ácido, porque la presencia de este en cantidades mayores de 1 % en el suelo, puede elevar el pH a condiciones superiores a la neutralidad.
+
+La cimentación es un tipo de consistencia que es causada por agentes cementantes entre estos esta el carbonato, pero debido a la ausencia de este elemento en el suelo, este no presentara esta consistencia.
+
+
+CONCLUCIONES:
+Como ya se menciono en la introducción, los datos que se tienen sobre el perfil no son todos los que deberían ser, esto ha provocado que las interpretaciones no se den con toda veracidad t seguridad.
+De acuerdo a las interpretaciones realizadas se entiende la gran relación que tienen las propiedades del suelo.
+Como ya se sabía en el trabajo anterior, donde se daba un panorama general de la zona de estudio, el tipo de suelo es de tipo Andosol
+Este tipo de suelo se recomienda principalmente para uso forestal ya que mantiene una característica de fijación derivada de sus componentes como la ceniza, pero también por la presencia de materia orgánica y alto contenido de humedad; en especifico, la ubicación de la zona de estudio pueden ser cultivos de riego o bien en este caso el mismo que se le daba, el de maíz.
+De esta manera con los datos recabados en el laboratorio a lo largo del año nos da una visión de cómo los cinco factores creadores del suelo interactúan formando las características del suelo ya analizado, y dándonos conocimientos para realizar una buena planificación de manera que junto con los datos de los compañeros de generación se tenga el mejor uso para nuestro suelo.
+

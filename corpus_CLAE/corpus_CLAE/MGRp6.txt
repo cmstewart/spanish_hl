@@ -1,0 +1,97 @@
+﻿Pozo 10
+
+Objetivo.
+     Realizar diversos análisis de las propiedades y características del suelo para conocer el estado actual en el que se encuentra, con el análisis de los resultados obtenidos se pretende evaluar y presentar alternativas para el uso del suelo del área de muestra (Pozo 10) ubicada en el municipio de Amecameca, que pertenece al Estado de México y que tiene las siguientes coordenadas: Latitud Norte   98° 49' 10"	Longitud Oeste         19° 11' 2".
+       
+
+Introducción.
+     En Amecameca las actividades agropecuarias han disminuido en los 20 últimos años, sin embargo, sigue siendo una actividad de la que depende 25% de la población. El principal cultivo es el maíz con 3357 ha y un rendimiento de 800 Kg. por ha. Sigue en orden de importancia la alfalfa, el trigo, la avena, las verduras y las legumbres. Estos datos nos indican que es muy importante realizar análisis de suelos en este municipio para que la actividad agrícola obtenga mejores rendimientos, y que estos se reflejen en la economía y la calidad de vida del mismo.
+     El presente análisis es solo uno de muchos que se deben realizar para obtener una evaluación óptima del estado actual de los suelos presentes en este municipio, todos estos con el fin de brindar a la actividad agrícola herramientas para su mejor desempeño.
+     A continuación se menciona cada uno de los análisis realizados en el laboratorio de suelos de la Licenciatura de Geografía impartida en la Facultad de Filosofía y Letras de la UNAM. El análisis de las muestras de suelos se realizó con fines didácticos y como una pieza elemental de la parte práctica de la asignatura de edafología. Al final se anexa el cuadro de los resultados de los análisis realizados.
+Determinación de humedad.
+     La cantidad de agua disponible en el suelo es un aspecto muy importante para la agricultura, ya que las necesidades de agua de las plantas se satisfacen con la humedad contenida en el suelo. La capacidad que tiene el suelo para retener y contener al agua depende de sus propiedades físicas, como la textura del suelo, la estructura del suelo, la densidad real, la densidad aparente y la porosidad.
+En el análisis para la determinación de la humedad del suelo del perfil edafológico se obtuvo un valor promedio de humedad de 29.8%. Tomando en cuenta que el rango óptimo de tensión del agua aprovechable en un suelo es de 10% podemos inferir que el suelo de nuestro perfil tiene buena capacidad para retener humedad, lo que es favorable para el desarrollo de las plantas.
+
+
+Color del suelo.
+     El color es la propiedad más fácil de observar del suelo y es una característica que puede relacionarse con las propiedades químicas, físicas y biológicas específicas de un área determinada. El color del suelo varía mucho entre las diversas clases de suelos, así como dentro de los distintos horizontes de un corte de suelo.
+     Conocer el color del suelo tiene gran importancia ya que tiene relaciones importantes con el clima y contenido de materia orgánica. Algunos colores ayudan a conocer el origen de un suelo, por ejemplo un suelo negro contiene materia orgánica; un suelo rojo, óxido de hierro; mientras que los suelos grises y azules están relacionados con suelos mal drenados.
+     Los colores del suelo se miden por comparación con la carta de colores de suelos de Munsell. Esta carta consiste de 175 diferentes papeles coloreados sistemáticamente arreglados de acuerdo con las anotaciones Munsell.
+     En los resultados del análisis de nuestro suelo se obtuvieron las siguientes claves en suelo seco y en suelo húmedo, que son las más representativas del perfil: SECO 2.5Y 4/4, HUMEDO 2.5Y 3/3. Las claves de los colores obtenidos en nuestro suelo nos indican la presencia de materia orgánica.
+Densidad del suelo (densidad Aparente qr./cm3 y densidad real qr./cm3)
+     Conocer la densidad del suelo sirve en diferentes aspectos, entre ellos para determinar la cantidad de minerales dominantes del suelo, la lámina de riego, las labores de preparación del suelo, entre otros. La densidad se considera como ei peso por volumen unitario de sustancia, expresada comúnmente en gr./cm3 También se puede definir como la masa de una unidad del peso de las partículas sólidas del suelo.
+     Para el análisis de nuestro perfil se obtuvieron valores de la Densidad aparente y de la Densidad real. La densidad aparente puede considerarse como la masa ó peso de una unidad de volumen de un suelo seco y la densidad real ó llamada también como la densidad de las partículas del suelo, es la masa de las partículas sólidas ó el volumen total de un suelo. Los resultados fueron los siguientes:
+Densidad aparente: 1.17 gr./cm3         Densidad real: 2.37 gr./cm3
+     Considerando que para que las plantas desarrollen ampliamente su sistema radicular necesitan que la densidad aparente sea alta, observamos que la
+
+densidad aparente de nuestro suelo es baja por lo que no permite el desarrollo óptimo del sistema radicular de las plantas.
+     El rango óptimo de densidad real es de 2.60 gr./cm3 a 2.75 gr./cm3 y la densidad media considerada para un suelo es de 2.65 gr./cm3. En nuestro análisis de suelo el valor de la densidad real fue de 2.37 gr./cm3' que esta muy cercano al valor medio.
+pH del suelo (medido con papel indicador y con potenciómetro)
+     La reacción del suelo es una de las características fisiológicas más importantes del suelo. Esto es debido a que los microorganismos y plantas superiores responden notablemente a su medio químico.
+     El pH del suelo influye en el desarrollo de las plantas y a su vez el pH del suelo es afectado por los vegetales y otros organismos. Por ejemplo, el intercambio catiónico realizado por las raíces de las plantas reduce el valor del pH del suelo, la descomposición del humus y la respiración celular de los organismos edáficos.
+     El rango óptimo del pH del suelo para el crecimiento de la mayor parte de los vegetales es de 6.0 a 7.0 porque la mayor parte de las sustancias nutritivas de las plantas están disponibles en este intervalo. La clasificación de pH del suelo se ejemplifica en el siguiente cuadro:
+
+Clasificación
+PH
+Extremadamente ácido
+Menor a 4.5
+Muy fuertemente ácido
+4.5-5
+Fuertemente ácido
+5-5.5
+Moderadamente ácido
+5.5-6
+Ligeramente ácido
+6-6.5
+Neutro
+6.5-7.3
+Ligeramente alcalino
+7.3-7.8
+Moderadamente alcalino
+7.8-8.5
+Muy alcalino
+8.5-9
+Demasiado alcalino
+Mayor a 9
+
+
+     Para el análisis de nuestro perfil edafológico se midió el pH del suelo con dos métodos: con uso del papel indicador y usando un potenciómetro. Se obtuvieron los siguientes resultados:
+
+pH con papel indicador: 5.9 PH con potenciómetro:     6.7
+     Los resultados obtenidos indican que el pH de la muestra de suelo analizado esta en un rango de moderadamente acido a neutro. Por lo tanto con lo que respecta al pH del suelo nuestra zona de muestreo es óptima para la mayor parte de los cultivos.
+Textura del suelo.
+     La textura del suelo se refiere a la proporción relativa de arena, limo y arcilla dentro del suelo. La textura del suelo es una característica muy importante, porque afecta las propiedades físicas, químicas y biológicas.
+En el análisis del perfil edafológico se obtuvieron los resultados siguientes:
+ARENA         59.2%
+ARCILLA       20.08%
+LIMO	   19.85%
+     Los resultados nos indican la presencia de un alto porcentaje de arena en el perfil edafológico. Utilizando el triángulo de texturas obtenemos la siguiente clase textura I: migajón arcillo arenoso. Cuando en superficie hay una textura arenosa, los suelos se conocen como ligeros, dada su escasa plasticidad y su baja dure que los hace muy fáciles de trabajar.
+Capacidad de campo.
+     La capacidad de campo es la cantidad de agua mantenida en el suelo después de que el agua de gravedad ha sido drenada. En $ el análisis del perfil edafológico se obtuvo el siguiente valor: 29.7%
+Materia orgánica.
+     El término general utilizado para definir la mezcla compleja de materia orgánica del suelo es humus. Es una mezcla dinámica, en constante cambio, que representa cada etapa de la descomposición de la materia orgánica muerta, desde
+       
+
+la más simple a la más compleja. La materia orgánica es muy importante para la fertilidad de los suelos ya que aporta nutrientes como el fósforo, el nitrógeno y el azufre, entre otros y que esenciales para el crecimiento de las plantas. Además la materia orgánica participa en tres propiedades del suelo como la aereación, el drenaje y la textura.
+     Para que un suelo sea considerado como orgánico se tiene que obtener un valor superior al 20% de materia orgánica. Los factores que intervienen para la formación de suelos orgánicos son: precipitación, temperatura y vegetación.
+     Los resultados obtenidos en el análisis de materia orgánica se obtuvo un valor promedio de 3.3% que muestra que nuestro perfil tiene poca presencia de materia orgánica, con lo que se puede inferir que el suelo también tiene ausencia de nutrientes elementales para el crecimiento de las plantas.
+Capacidad de intercambio catiónico.
+     La capacidad de intercambio catiónico es una expresión del numero de sitios de absorción de cationes por unidades de suelo y tiene relación con el proceso fisiológico de de alimentación de las plantas por el numero total de sitios de intercambio de coloides, tanto minerales como orgánicos, que ayudan a que el suelo absorba nutrientes.
+     El porcentaje obtenido en el análisis del perfil edafológico fue el siguiente. 8.53%
+En la determinación de carbonatos y bicarbonatos los resultados fueron los siguientes: CO3= 0 HCO3= 0.18
+
+
+Conclusión.
+     Los resultados obtenidos en el análisis del perfil edafológico asignado permiten analizar el estado actual del suelo de nuestra área de estudio. El análisis del perfil nos muestra discrepancias en las características y propiedades del suelo, en algunos aspectos el suelo es óptimo para el desarrollo de las plantas (por ejemplo el pH es muy cercano al valor neutro), pero en otros son una limitante para el desarrollo de ellas (por ejemplo la poca presencia de materia orgánica). En aspectos como la humedad, si bien no se tienen los niveles óptimos, se pueden obtener buenos rendimientos en la agricultura.
+     En conclusión el análisis del suelo nos indica que la zona de estudio es apta para la agricultura, obteniendo buenos rendimientos si se destinan recursos para acondicionar el suelo. Acondicionar el suelo implica seis practicas esenciales: labranza adecuada, mantenimiento de un aporte apropiado de materia orgánica en el suelo, mantenimiento de un aporte conveniente de nutrientes, control de la contaminación del suelo, mantenimiento de una acidez correcta del suelo y control de la erosión.
+
+
+
+
+
+
+
+
+
+
+
